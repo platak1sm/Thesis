@@ -5,13 +5,12 @@ using UnityEngine;
 public class Body : MonoBehaviour
 {
     public Dictionary<string, GameObject> bodyparts = new Dictionary<string, GameObject>();
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         bodyparts.Add("LShoulder", GameObject.Find("Skeleton_LeftShoulder"));
         bodyparts.Add("RShoulder", GameObject.Find("Skeleton_RightShoulder"));
         bodyparts.Add("LArm", GameObject.Find("Skeleton_LeftArm"));
-        bodyparts.Add("RArm", GameObject.Find("Skeleton_RightShoulder"));
+        bodyparts.Add("RArm", GameObject.Find("Skeleton_RightArm"));
         bodyparts.Add("LForeArm", GameObject.Find("Skeleton_LeftForeArm"));
         bodyparts.Add("RForeArm", GameObject.Find("Skeleton_RightForeArm"));
         bodyparts.Add("LUpLeg", GameObject.Find("Skeleton_LeftUpLeg"));
@@ -24,6 +23,11 @@ public class Body : MonoBehaviour
         bodyparts.Add("Spine1", GameObject.Find("Skeleton_Spine1"));
         bodyparts.Add("Spine2", GameObject.Find("Skeleton_Spine2"));
         bodyparts.Add("Hip", GameObject.Find("Skeleton_Hip"));
+    }
+    // Start is called before the first frame update
+    void Start()
+    {
+        
 
     }
 

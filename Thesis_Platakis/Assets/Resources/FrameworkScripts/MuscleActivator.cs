@@ -11,11 +11,11 @@ public abstract class MuscleActivator : MonoBehaviour
         
     }
 
-    public abstract void Evaluate(GameObject[] joints, Transform[] thresholds);
+    public abstract void Evaluate(GameObject[] joints, float[,] thresholds);
 
     public abstract void Activate();
 
-    public abstract void Activate(float intensity);
+    public abstract void Activate(float intensity, GameObject muscle);
 
     // Update is called once per frame
     void Update()

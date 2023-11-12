@@ -7,12 +7,12 @@ public class Muscle : MonoBehaviour
     public string name;
     public TextureMuscleActivator tma;
     public GameObject[] jointsToEvaluate;
-    public Transform[] thresholds;
     public Body body;
+    public float[,] thresholds;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
