@@ -1,0 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using UnityEngine;
+
+public class Abs : Muscle
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        print("mphka abs");
+        body = GameObject.Find("Skeleton_Reference1").GetComponent<Body>();
+        name = "Abs";
+        tma = GameObject.Find("Skeleton_Reference1").GetComponent<TextureMuscleActivator>();
+        jointsToEvaluate = new GameObject[1];
+        thresholds = new float[1, 2];
+        jointsToEvaluate[0] = body.bodyparts["Spine"];
+        thresholds[0, 0] = 360f;
+        thresholds[0, 1] = 290f;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        tma.Evaluate(jointsToEvaluate, thresholds);
+    }
+}
