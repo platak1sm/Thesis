@@ -13,7 +13,7 @@ public class TextureMuscleActivator : MuscleActivator
     Body b;
     private Dictionary<GameObject, Action<GameObject, float[]>> jointActions = new Dictionary<GameObject, Action<GameObject, float[]>>();
     Material m;
-    bool isBenting = false, isLyingSupine = false, isLyingProne = false, isStanding = true;
+    bool isBenting = false, isLyingSupine = false, isLyingProne = false, isStanding = true, isActivatedR = false, isActivatedL = false, isActivated = false;
     private void Awake()
     {
         b = GameObject.Find("Skeleton_Reference1").GetComponent<Body>();
@@ -46,37 +46,47 @@ public class TextureMuscleActivator : MuscleActivator
     {
         string jname;
         GameObject muscle;
-        bool isLeft = false;
+        bool isLeft = false; 
         float distance, distancel;
         if (joint.name == "Skeleton_LeftArm")
         {
             jname = "LArm";
             isLeft = true;
+            muscle = GameObject.Find("LShoulderSphere");
+            isActivated = isActivatedL;
         }
-        else jname = "RArm";
+        else {
+            jname = "RArm";
+            muscle = GameObject.Find("RShoulderSphere");
+            isActivated = isActivatedR;
+        }
 
         Vector3 rotation = b.bodyparts[jname].transform.localRotation.eulerAngles;
-        
-        if (isLeft) muscle = GameObject.Find("LShoulderSphere");
-        else muscle = GameObject.Find("RShoulderSphere");
+
 
         if (thresholds[1] > thresholds[0])
         {
             distance = thresholds[1] - rotation.x;
-
             if (distance <= thresholds[1] - thresholds[0] && distance >= 0)
             {
                 //print("Distance of joint " + jname +": "+ distance);
                 distancel = Mathf.InverseLerp(0f, thresholds[1] - thresholds[0], distance);
                 //print("Distance 0-1 of joint " + jname + ": " + distancel);
                 Activate(1 - distancel, muscle);
+                if (isLeft) isActivatedL = true;
+                else isActivatedR = true;
             }
-            else Activate(0, muscle);
+            else
+            {
+                if (isLeft) isActivatedL = false;
+                else isActivatedR = false;
+                Activate(0, muscle);
+            }
         }
         else
         {
             distance = thresholds[1] - rotation.z;
-
+  
             if (distance >= thresholds[1] - thresholds[0] && distance <= 0)
             {
                 //print("Distance of joint " + jname +": "+ distance);
@@ -84,7 +94,7 @@ public class TextureMuscleActivator : MuscleActivator
                 //print("Distance 0-1 of joint " + jname + ": " + distancel);
                 Activate(distancel, muscle);
             }
-            else Activate(0, muscle);
+            else if (!isActivated) Activate(0, muscle);
         }
         
     }
