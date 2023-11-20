@@ -5,45 +5,22 @@ using UnityEngine;
 public class Thresholds : MonoBehaviour
 {
     public Dictionary<string, float[]> thresholds = new Dictionary<string, float[]>();
+
+    /*Doc*/
+
     private void Awake()
     {
-        float[] t = new float[2];
-        t[0] = 25f;
-        t[1] = 90f;
-        thresholds.Add("Shoulder1", t);
-        float[] t1 = new float[2];
-        t1[0] = 65f;
-        t1[1] = 0f;
-        thresholds.Add("Shoulder2", t1);
-        float[] t2 = new float[2];
-        t2[0] = 320f;
-        t2[1] = 245f;
-        thresholds.Add("Bicep", t2);
-        float[] t3 = new float[2];
-        t3[0] = 310f;
-        t3[1] = 345f;
-        thresholds.Add("Tricep", t3);
-        float[] t4 = new float[2];
-        t4[0] = 340f;
-        t4[1] = 10f;
-        thresholds.Add("Quad", t4);
-        float[] t5 = new float[2];
-        t5[0] = 310f;
-        t5[1] = 245f;
-        thresholds.Add("Hamstring", t5);
-        float[] t6 = new float[2];
-        t6[0] = 40f;
-        t6[1] = 20f;
-        thresholds.Add("Calf", t6);
-        float[] t7 = new float[2];
-        t7[0] = 360f;
-        t7[1] = 290f;
-        thresholds.Add("Abs", t7);
-        float[] t8 = new float[2];
-        t8[0] = 15f;
-        t8[1] = 45f;
-        thresholds.Add("Dorsal", t8);
+        AddMovement(25f, 90f, "Shoulder1");
+        AddMovement(65f, 0f, "Shoulder2");
+        AddMovement(320f, 245f, "Bicep");
+        AddMovement(310f, 345f, "Tricep");
+        AddMovement(340f, 10f, "Quad");
+        AddMovement(310f, 245f, "Hamstring");
+        AddMovement(40f, 20f, "Calf");
+        AddMovement(360f, 290f, "Abs");
+        AddMovement(15f, 45f, "Dorsal");
     }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +31,14 @@ public class Thresholds : MonoBehaviour
     void Update()
     {
 
+    }
+
+    void AddMovement(float min, float max, string muscle)
+    {
+        float[] t = new float[2];
+        t[0] = min;
+        t[1] = max;
+        thresholds.Add(muscle, t);
     }
 }
 
