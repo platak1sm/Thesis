@@ -196,15 +196,12 @@ public class TextureMuscleActivator : MuscleActivator
         Vector3 hiprotation = b.bodyparts["Hips"].transform.localRotation.eulerAngles;
 
         distance = (thresholds[1] - rotation.z + 360) % 360;
-
+        if (isLeft) muscle = GameObject.Find("LQuadSphere");
+        else muscle = GameObject.Find("RQuadSphere");
         if (distance <= 30 &&  thresholds[1]==10)
         {
-            if (isLeft) muscle = GameObject.Find("LQuadSphere");
-                else muscle = GameObject.Find("RQuadSphere");
-
             if (hiprotation.z >= 245 && hiprotation.z <= 265)
             {
-                
 
                 if (distance != 30)
                 {
@@ -218,7 +215,7 @@ public class TextureMuscleActivator : MuscleActivator
                 else Activate(0, muscle);
             }
             else Activate(0, muscle);
-        } 
+        }else if (thresholds[1]==10) Activate(0, muscle);
         else
         {
             if (isLeft) muscle = GameObject.Find("LHamstringSphere");
