@@ -10,16 +10,17 @@ public class Calf : Muscle
     {
         print("mphka calf");
         body = GameObject.Find("Skeleton_Reference1").GetComponent<Body>();
+        thr = GameObject.Find("Skeleton_Reference1").GetComponent<Thresholds>();
         name = "Calf";
         tma = GameObject.Find("Skeleton_Reference1").GetComponent<TextureMuscleActivator>();
         jointsToEvaluate = new GameObject[2];
         thresholds = new float[2, 2];
         jointsToEvaluate[0] = body.bodyparts["RFoot"];
         jointsToEvaluate[1] = body.bodyparts["LFoot"];
-        thresholds[0, 0] = 40f;
-        thresholds[0, 1] = 20f;
-        thresholds[1, 0] = 40f;
-        thresholds[1, 1] = 20f;
+        thresholds[0, 0] = thr.thresholds[name][0];
+        thresholds[0, 1] = thr.thresholds[name][1];
+        thresholds[1, 0] = thr.thresholds[name][0];
+        thresholds[1, 1] = thr.thresholds[name][1];
     }
 
     // Update is called once per frame

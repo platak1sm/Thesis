@@ -8,6 +8,7 @@ public class Muscle : MonoBehaviour
     public TextureMuscleActivator tma;
     public GameObject[] jointsToEvaluate;
     public Body body;
+    public Thresholds thr;
     public float[,] thresholds;
     // Start is called before the first frame update
     void Start()

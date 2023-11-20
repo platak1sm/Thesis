@@ -9,7 +9,9 @@ public class Shoulder : Muscle
     {
         Debug.Log("mphka shoulder");
         body = GameObject.Find("Skeleton_Reference1").GetComponent<Body>();
+        thr = GameObject.Find("Skeleton_Reference1").GetComponent<Thresholds>();
         name = "Shoulder";
+        int i = 1;
         tma = GameObject.Find("Skeleton_Reference1").GetComponent<TextureMuscleActivator>();
         jointsToEvaluate = new GameObject[4];
         thresholds = new float[4, 2];
@@ -17,14 +19,15 @@ public class Shoulder : Muscle
         jointsToEvaluate[1] = body.bodyparts["LArm"];
         jointsToEvaluate[2] = body.bodyparts["RArm"];
         jointsToEvaluate[3] = body.bodyparts["LArm"];
-        thresholds[0, 0] = 25f;
-        thresholds[0, 1] = 90f;
-        thresholds[1, 0] = 25f;
-        thresholds[1, 1] = 90f;
-        thresholds[2, 0] = 65f;
-        thresholds[2, 1] = 0f;
-        thresholds[3, 0] = 65f;
-        thresholds[3, 1] = 0f;
+        thresholds[0, 0] = thr.thresholds[name+i][0];
+        thresholds[0, 1] = thr.thresholds[name+i][1];
+        thresholds[1, 0] = thr.thresholds[name+i][0];
+        thresholds[1, 1] = thr.thresholds[name+i][1];
+        i++;
+        thresholds[2, 0] = thr.thresholds[name+i][0];
+        thresholds[2, 1] = thr.thresholds[name+i][1];
+        thresholds[3, 0] = thr.thresholds[name+i][0];
+        thresholds[3, 1] = thr.thresholds[name+i][1];
 
     }
     

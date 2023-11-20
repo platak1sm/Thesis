@@ -10,16 +10,17 @@ public class Bicep : Muscle
     {
         print("mphka bicep");
         body = GameObject.Find("Skeleton_Reference1").GetComponent<Body>();
+        thr = GameObject.Find("Skeleton_Reference1").GetComponent<Thresholds>();
         name = "Bicep";
         tma = GameObject.Find("Skeleton_Reference1").GetComponent<TextureMuscleActivator>();
         jointsToEvaluate = new GameObject[2];
         thresholds = new float[2, 2];
         jointsToEvaluate[0] = body.bodyparts["RForeArm"];
         jointsToEvaluate[1] = body.bodyparts["LForeArm"];
-        thresholds[0, 0] = 320f;
-        thresholds[0, 1] = 245f;
-        thresholds[1, 0] = 320f;
-        thresholds[1, 1] = 245f;
+        thresholds[0, 0] = thr.thresholds[name][0];
+        thresholds[0, 1] = thr.thresholds[name][1];
+        thresholds[1, 0] = thr.thresholds[name][0];
+        thresholds[1, 1] = thr.thresholds[name][1];
     }
 
     // Update is called once per frame

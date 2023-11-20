@@ -10,13 +10,14 @@ public class Dorsal : Muscle
     {
         print("mphka dorsals");
         body = GameObject.Find("Skeleton_Reference1").GetComponent<Body>();
-        name = "Dorsals";
+        thr = GameObject.Find("Skeleton_Reference1").GetComponent<Thresholds>();
+        name = "Dorsal";
         tma = GameObject.Find("Skeleton_Reference1").GetComponent<TextureMuscleActivator>();
         jointsToEvaluate = new GameObject[1];
         thresholds = new float[1, 2];
         jointsToEvaluate[0] = body.bodyparts["Spine"];
-        thresholds[0, 0] = 15f;
-        thresholds[0, 1] = 45f;
+        thresholds[0, 0] = thr.thresholds[name][0];
+        thresholds[0, 1] = thr.thresholds[name][1];
     }
 
     // Update is called once per frame

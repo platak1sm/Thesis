@@ -114,6 +114,7 @@ MonoBehaviour:
   tma: {fileID: 0}
   jointsToEvaluate: []
   body: {fileID: 0}
+  thr: {fileID: 0}
 --- !u!1 &946734566330056012
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,6 +229,7 @@ MonoBehaviour:
   tma: {fileID: 0}
   jointsToEvaluate: []
   body: {fileID: 0}
+  thr: {fileID: 0}
 --- !u!1 &2164848764265314798
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,6 +344,7 @@ MonoBehaviour:
   tma: {fileID: 0}
   jointsToEvaluate: []
   body: {fileID: 0}
+  thr: {fileID: 0}
 --- !u!1 &2981922247521161391
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,6 +459,7 @@ MonoBehaviour:
   tma: {fileID: 0}
   jointsToEvaluate: []
   body: {fileID: 0}
+  thr: {fileID: 0}
 --- !u!1 &3724196797635018116
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,6 +574,7 @@ MonoBehaviour:
   tma: {fileID: 0}
   jointsToEvaluate: []
   body: {fileID: 0}
+  thr: {fileID: 0}
 --- !u!1 &4957502698524441428
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +689,7 @@ MonoBehaviour:
   tma: {fileID: 0}
   jointsToEvaluate: []
   body: {fileID: 0}
+  thr: {fileID: 0}
 --- !u!1 &7317070902935088407
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,6 +804,7 @@ MonoBehaviour:
   tma: {fileID: 0}
   jointsToEvaluate: []
   body: {fileID: 0}
+  thr: {fileID: 0}
 --- !u!1 &7614532540397259821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1009,6 +1016,7 @@ MonoBehaviour:
   tma: {fileID: 0}
   jointsToEvaluate: []
   body: {fileID: 0}
+  thr: {fileID: 0}
 --- !u!1 &7614532540484466225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,6 +1965,7 @@ MonoBehaviour:
   tma: {fileID: 0}
   jointsToEvaluate: []
   body: {fileID: 0}
+  thr: {fileID: 0}
 --- !u!1 &7614532541091837534
 GameObject:
   m_ObjectHideFlags: 0
@@ -2521,6 +2530,7 @@ MonoBehaviour:
   tma: {fileID: 0}
   jointsToEvaluate: []
   body: {fileID: 0}
+  thr: {fileID: 0}
 --- !u!1 &7614532541469313445
 GameObject:
   m_ObjectHideFlags: 0
@@ -2781,6 +2791,7 @@ GameObject:
   - component: {fileID: 7614532541559959502}
   - component: {fileID: 7614532541559959344}
   - component: {fileID: 7614532541559959503}
+  - component: {fileID: 3394461002734545014}
   m_Layer: 0
   m_Name: Skeleton_Reference1
   m_TagString: Untagged
@@ -2829,6 +2840,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   model: {fileID: 0}
+--- !u!114 &3394461002734545014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7614532541559959501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e654b23630e48dfb8d827b7ff8c87b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7614532541571882363
 GameObject:
   m_ObjectHideFlags: 0
@@ -2943,6 +2966,7 @@ MonoBehaviour:
   tma: {fileID: 0}
   jointsToEvaluate: []
   body: {fileID: 0}
+  thr: {fileID: 0}
 --- !u!1 &7614532541592532274
 GameObject:
   m_ObjectHideFlags: 0
@@ -4284,6 +4308,7 @@ MonoBehaviour:
   tma: {fileID: 0}
   jointsToEvaluate: []
   body: {fileID: 0}
+  thr: {fileID: 0}
 --- !u!1 &7614532542147097706
 GameObject:
   m_ObjectHideFlags: 0
@@ -4604,6 +4629,7 @@ MonoBehaviour:
   tma: {fileID: 0}
   jointsToEvaluate: []
   body: {fileID: 0}
+  thr: {fileID: 0}
 --- !u!1 &7614532542342154671
 GameObject:
   m_ObjectHideFlags: 0
@@ -4996,3 +5022,4 @@ MonoBehaviour:
   tma: {fileID: 0}
   jointsToEvaluate: []
   body: {fileID: 0}
+  thr: {fileID: 0}
