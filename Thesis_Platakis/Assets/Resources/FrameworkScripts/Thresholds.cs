@@ -10,27 +10,24 @@ public class Thresholds : MonoBehaviour
 
     private void Awake()
     {
-        AddMovement(25f, 90f, "Shoulder1");
-        AddMovement(65f, 0f, "Shoulder2");
-        AddMovement(320f, 245f, "Bicep");
-        AddMovement(310f, 345f, "Tricep");
-        AddMovement(340f, 10f, "Quad");
-        AddMovement(310f, 245f, "Hamstring");
-        AddMovement(40f, 20f, "Calf");
-        AddMovement(360f, 290f, "Abs");
-        AddMovement(15f, 45f, "Dorsal");
+        AddMovement(25f, 90f, "Shoulder1");   //Arm Joints
+        AddMovement(75f, 0f, "Shoulder2");    //Arm Joints
+        AddMovement(75f, 15f, "Chest");       //Arm Joints
+        AddMovement(90f, 115f, "Back");       //Arm Joints
+        AddMovement(320f, 245f, "Bicep");     //ForeArm Joints
+        AddMovement(310f, 345f, "Tricep");    //ForeArm Joints
+        AddMovement(340f, 10f, "Quad");       //Leg Joints
+        AddMovement(310f, 245f, "Hamstring"); //Leg Joints
+        AddMovement(40f, 20f, "Calf");        //Foot Joints
+        AddMovement(360f, 290f, "Abs");       //Spine Joint
+        AddMovement(15f, 45f, "Dorsal");      //Spine Joint
+
     }
 
     // Start is called before the first frame update
     void Start()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+       
     }
 
     void AddMovement(float min, float max, string muscle)
