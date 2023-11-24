@@ -10,18 +10,23 @@ public class Thresholds : MonoBehaviour
 
     private void Awake()
     {
-        AddMovement(25f, 90f, "Shoulder1");   //Arm Joints
-        AddMovement(75f, 0f, "Shoulder2");    //Arm Joints
-        AddMovement(75f, 15f, "Chest");       //Arm Joints
-        AddMovement(90f, 115f, "Back");       //Arm Joints
-        AddMovement(320f, 245f, "Bicep");     //ForeArm Joints
-        AddMovement(310f, 345f, "Tricep");    //ForeArm Joints
-        AddMovement(340f, 10f, "Quad");       //Leg Joints
-        AddMovement(310f, 245f, "Hamstring"); //Leg Joints
-        AddMovement(40f, 20f, "Calf");        //Foot Joints
-        AddMovement(360f, 290f, "Abs");       //Spine Joint
-        AddMovement(15f, 45f, "Dorsal");      //Spine Joint
-
+        AddMovement(25f, 90f, "Shoulder1");      //Arm Joints
+        AddMovement(75f, 0f, "Shoulder2");       //Arm Joints
+        AddMovement(75f, 15f, "Chest");          //Arm Joints
+        AddMovement(90f, 115f, "Back");          //Arm Joints
+        AddMovement(320f, 245f, "Bicep");        //ForeArm Joints
+        AddMovement(320f, 345f, "Tricep");       //ForeArm Joints
+        AddMovement(340f, 10f, "Quad");          //Leg Joints
+        AddMovement(310f, 245f, "Hamstring");    //Leg Joints
+        AddMovement(40f, 20f, "Calf");           //Foot Joints
+        AddMovement(360f, 290f, "Abs");          //Spine Joint
+        AddMovement(15f, 45f, "Dorsal");         //Spine Joint
+        AddMovement(230f, 320f, "Benting");      //Spine Joint
+        AddMovement(50f, 70f, "Arching");        //Spine Joint
+        AddMovement(30f, 350f, "StandingSpine"); //Spine Joint
+        AddMovement(245f, 265f, "StandingHip");  //Hip Joint
+        AddMovement(340f, 360f, "LyingSupine");  //Hip Joint
+        AddMovement(150f, 190f, "LyingProne");   //Hip Joint                                  
     }
 
     // Start is called before the first frame update

@@ -13,6 +13,7 @@ public class TextureMuscleActivator : MuscleActivator
     Body b;
     private Dictionary<GameObject, Action<GameObject, float[]>> jointActions = new Dictionary<GameObject, Action<GameObject, float[]>>();
     Material m;
+    Thresholds thr;
     bool isBenting = false, isLyingSupine = false, isLyingProne = false, isStanding = true, isActivatedR = false, isActivatedL = false, isActivated = false;
     private void Awake()
     {
@@ -22,6 +23,7 @@ public class TextureMuscleActivator : MuscleActivator
     // Start is called before the first frame update
     void Start()
     {
+        thr = GameObject.Find("Skeleton_Reference1").GetComponent<Thresholds>();
         jointActions[b.bodyparts["LShoulder"]] = HandleShoulder;
         jointActions[b.bodyparts["RShoulder"]] = HandleShoulder;
         jointActions[b.bodyparts["LArm"]] = HandleArm;
@@ -77,7 +79,7 @@ public class TextureMuscleActivator : MuscleActivator
             if (thresholds[1] > 90)
             {
                 distance = thresholds[1] - rotation.z;
-                if (distance <= thresholds[1] - thresholds[0] && distance >= 0 && rotation2.z >= 265 && rotation2.z <= 310)
+                if (distance <= thresholds[1] - thresholds[0] && distance >= 0 && rotation2.z >= thr.thresholds["Bicep"][1] && rotation2.z <= thr.thresholds["Bicep"][0])
                 {
                     //print("Distance of joint " + jname +": "+ distance);
                     distancel = Mathf.InverseLerp(0f, thresholds[1] - thresholds[0], distance);
@@ -113,14 +115,14 @@ public class TextureMuscleActivator : MuscleActivator
         {
             distance = thresholds[1] - rotation.z;
 
-            if (distance >= thresholds[1] - thresholds[0] && distance <= 0 && (spinerotation.z >= 350 || spinerotation.z <= 30))
+            if (distance >= thresholds[1] - thresholds[0] && distance <= 0 && (spinerotation.z >= thr.thresholds["StandingSpine"][0] || spinerotation.z <= thr.thresholds["StandingSpine"][1]))
             {
                 //print("Distance of joint " + jname +": "+ distance);
                 distancel = Mathf.InverseLerp(thresholds[1] - thresholds[0], 0f, distance);
                 //print("Distance 0-1 of joint " + jname + ": " + distancel);
                 Activate(distancel, muscle);
 
-                if (hiprotation.z <= 360 && hiprotation.z >= 340)
+                if (hiprotation.z <= thr.thresholds["LyingSupine"][1] && hiprotation.z >= thr.thresholds["LyingSupine"][0])
                 {
                     distancel = Mathf.InverseLerp(thresholds[1] - thresholds[0], 0f, distance);
                     //Debug.Log("Distance 0-1 of joint CHEST: " + distancel);
@@ -141,16 +143,21 @@ public class TextureMuscleActivator : MuscleActivator
  
     private void HandleForeArm(GameObject joint, float[] thresholds)
     {
-        string jname;
+        string jname,jname2;
         float distance, distancel;
         GameObject muscle;
         bool isLeft = false;
         if (joint.name == "Skeleton_LeftForeArm") {
             jname = "LForeArm";
+            jname2 = "LArm";
             isLeft = true;
         }
-        else jname = "RForeArm";
+        else {
+            jname = "RForeArm";
+            jname2 = "RArm";
+        }
         Vector3 rotation = b.bodyparts[jname].transform.localRotation.eulerAngles;
+        Vector3 rotation2 = b.bodyparts[jname2].transform.localRotation.eulerAngles;
         Vector3 spinerotation = b.bodyparts["Spine"].transform.localRotation.eulerAngles;
         Vector3 hiprotation = b.bodyparts["Hips"].transform.localRotation.eulerAngles;
         distance = thresholds[1] - rotation.z;
@@ -158,12 +165,12 @@ public class TextureMuscleActivator : MuscleActivator
         {
             if (isLeft) muscle = GameObject.Find("LTricepSphere");
             else muscle = GameObject.Find("RTricepSphere");
-            if (hiprotation.z >= 245 && hiprotation.z <= 265)
+            if (hiprotation.z >= thr.thresholds["StandingHip"][0] && hiprotation.z <= thr.thresholds["StandingHip"][1])
             {
 
                 if (distance <= thresholds[1] - thresholds[0] && distance >= 0)
                 {
-                    if (spinerotation.z <= 320 && spinerotation.z >= 230)
+                    if (spinerotation.z <= thr.thresholds["Benting"][1] && spinerotation.z >= thr.thresholds["Benting"][0])
                     {
                         if (!isBenting)
                         {
@@ -194,14 +201,14 @@ public class TextureMuscleActivator : MuscleActivator
             if (isLeft) muscle = GameObject.Find("LBicepSphere");
             else muscle = GameObject.Find("RBicepSphere");
             
-            if (distance > thresholds[1] - thresholds[0] && distance <= 0)
+            if (distance > thresholds[1] - thresholds[0] && distance <= 0 && rotation2.x <= thr.thresholds["Shoulder1"][0])
             {
-                //Debug.Log("Distance of joint " + jname + ": " + distance);
-                distancel = Mathf.InverseLerp(thresholds[1] - thresholds[0], 0f, distance);
-                //Debug.Log("Distance 0-1 of joint " + jname + ": " + distancel);
-                Activate(distancel, muscle);
+                    //Debug.Log("Distance of joint " + jname + ": " + distance);
+                    distancel = Mathf.InverseLerp(thresholds[1] - thresholds[0], 0f, distance);
+                    //Debug.Log("Distance 0-1 of joint " + jname + ": " + distancel);
+                    Activate(distancel, muscle);
             }
-            else if (distance>0)
+            else if (distance > 0)
             {
                 //Debug.Log("Distance of joint " + jname + ": " + distance);
                 distancel = Mathf.InverseLerp(0f, thresholds[0] - thresholds[1], distance);
@@ -222,9 +229,10 @@ public class TextureMuscleActivator : MuscleActivator
     private void HandleLeg(GameObject joint, float[] thresholds)
     {
         string jname;
-        float distance, distancel;
+        float distance, distancel, d1;
         GameObject muscle;
         bool isLeft = false;
+
         if (joint.name == "Skeleton_LeftLeg")
         {
             jname = "LLeg";
@@ -236,14 +244,17 @@ public class TextureMuscleActivator : MuscleActivator
         Vector3 hiprotation = b.bodyparts["Hips"].transform.localRotation.eulerAngles;
 
         distance = (thresholds[1] - rotation.z + 360) % 360;
+        d1 = (thr.thresholds["Quad"][1] - thr.thresholds["Quad"][0] + 360) % 360;
+
         if (isLeft) muscle = GameObject.Find("LQuadSphere");
         else muscle = GameObject.Find("RQuadSphere");
-        if (distance <= 30 &&  thresholds[1]==10)
+
+        if (distance <= d1 &&  thresholds[1] == thr.thresholds["Quad"][1])
         {
-            if (hiprotation.z >= 245 && hiprotation.z <= 265)
+            if (hiprotation.z >= thr.thresholds["StandingHip"][0] && hiprotation.z <= thr.thresholds["StandingHip"][1])
             {
 
-                if (distance != 30)
+                if (distance != d1)
                 {
                     //if(isSitting) more ROM
                     //if not:
@@ -255,7 +266,10 @@ public class TextureMuscleActivator : MuscleActivator
                 else Activate(0, muscle);
             }
             else Activate(0, muscle);
-        }else if (thresholds[1]==10) Activate(0, muscle);
+        }
+
+        else if (thresholds[1] == thr.thresholds["Quad"][1]) Activate(0, muscle);
+
         else
         {
             if (isLeft) muscle = GameObject.Find("LHamstringSphere");
@@ -292,17 +306,23 @@ public class TextureMuscleActivator : MuscleActivator
             isLeft = true;
         }
         else jname = "RFoot";
+
         Vector3 rotation = b.bodyparts[jname].transform.localRotation.eulerAngles;
+        Vector3 hiprotation = b.bodyparts["Hips"].transform.localRotation.eulerAngles;
+
         distance = thresholds[1] - rotation.z;
         if (isLeft) muscle = GameObject.Find("LCalfSphere");
         else muscle = GameObject.Find("RCalfSphere");
 
         if (distance > thresholds[1] - thresholds[0])
         {
-            //Debug.Log("Distance of joint " + jname + ": " + distance);
-            distancel = Mathf.InverseLerp(thresholds[1] - thresholds[0], 0f, distance);
-            //Debug.Log("Distance 0-1 of joint " + jname + ": " + distancel);
-            Activate(distancel, muscle);
+            if (hiprotation.z >= thr.thresholds["StandingHip"][0] && hiprotation.z <= thr.thresholds["StandingHip"][1])
+            {
+                //Debug.Log("Distance of joint " + jname + ": " + distance);
+                distancel = Mathf.InverseLerp(thresholds[1] - thresholds[0], 0f, distance);
+                //Debug.Log("Distance 0-1 of joint " + jname + ": " + distancel);
+                Activate(distancel, muscle);
+            }
         }
         else Activate(0, muscle);
 
@@ -320,9 +340,9 @@ public class TextureMuscleActivator : MuscleActivator
         if (thresholds[1] > thresholds[0])
         {
             muscle = GameObject.Find("DorsalSphere");
-            if (distance <= thresholds[1] - thresholds[0] && rotation.z <= 100)
+            if (distance <= thresholds[1] - thresholds[0] && rotation.z <= thr.thresholds["Arching"][1])
             {
-                if (hiprotation.z <= 190 && hiprotation.z >= 150)
+                if (hiprotation.z <= thr.thresholds["LyingProne"][1] && hiprotation.z >= thr.thresholds["LyingProne"][0])
                 {
                     if (!isLyingProne)
                     {
@@ -350,9 +370,9 @@ public class TextureMuscleActivator : MuscleActivator
         else
         {
             muscle = GameObject.Find("AbsSphere");
-            if (distance > thresholds[1] - thresholds[0] && rotation.z>=290)
+            if (distance >= thresholds[1] - thresholds[0] && rotation.z >= thr.thresholds["Abs"][1])
             {
-                if (hiprotation.z <= 360 && hiprotation.z >= 340)
+                if (hiprotation.z <= thr.thresholds["LyingSupine"][1] && hiprotation.z >= thr.thresholds["LyingSupine"][0])
                 {
                     if (!isLyingSupine) print("IS LYING SUPINE NOW");
                     isLyingSupine = true;
