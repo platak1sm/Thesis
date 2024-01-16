@@ -5,6 +5,7 @@ using UnityEngine;
 public class Body : MonoBehaviour
 {
     public Dictionary<string, GameObject> bodyparts = new Dictionary<string, GameObject>();
+
     private void Awake()
     {
         bodyparts.Add("LShoulder", GameObject.Find("Skeleton_LeftShoulder"));

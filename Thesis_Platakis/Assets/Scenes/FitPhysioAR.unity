@@ -494,3 +494,60 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2358544b3208b405fb3398e931670038, type: 3}
+--- !u!1001 &270080652446689113
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 270080652515647550, guid: d0b9895a82e1740688d2bbf7884a8fa7, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 270080652515647550, guid: d0b9895a82e1740688d2bbf7884a8fa7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.799
+      objectReference: {fileID: 0}
+    - target: {fileID: 270080652515647550, guid: d0b9895a82e1740688d2bbf7884a8fa7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 270080652515647550, guid: d0b9895a82e1740688d2bbf7884a8fa7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 270080652515647550, guid: d0b9895a82e1740688d2bbf7884a8fa7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 270080652515647550, guid: d0b9895a82e1740688d2bbf7884a8fa7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 270080652515647550, guid: d0b9895a82e1740688d2bbf7884a8fa7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 270080652515647550, guid: d0b9895a82e1740688d2bbf7884a8fa7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 270080652515647550, guid: d0b9895a82e1740688d2bbf7884a8fa7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 270080652515647550, guid: d0b9895a82e1740688d2bbf7884a8fa7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 270080652515647550, guid: d0b9895a82e1740688d2bbf7884a8fa7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 270080652515647551, guid: d0b9895a82e1740688d2bbf7884a8fa7, type: 3}
+      propertyPath: m_Name
+      value: HumanAnatomyThesis
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d0b9895a82e1740688d2bbf7884a8fa7, type: 3}
