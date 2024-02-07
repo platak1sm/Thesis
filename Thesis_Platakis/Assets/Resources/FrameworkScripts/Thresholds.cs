@@ -11,8 +11,8 @@ public class Thresholds : MonoBehaviour
     private void Awake()
     {
         AddMovement(25f, 90f, "Shoulder1");      //Arm Joints
-        AddMovement(75f, 0f, "Shoulder2");       //Arm Joints
-        AddMovement(75f, 15f, "Chest");          //Arm Joints
+        AddMovement(75f, 9f, "Shoulder2");       //Arm Joints
+        AddMovement(75f, 9f, "Chest");          //Arm Joints
         AddMovement(90f, 115f, "Back");          //Arm Joints
         AddMovement(320f, 245f, "Bicep");        //ForeArm Joints
         AddMovement(320f, 345f, "Tricep");       //ForeArm Joints
