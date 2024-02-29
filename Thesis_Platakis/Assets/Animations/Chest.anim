@@ -967,6 +967,36 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
+    path: Skeleton_Reference1/Skeleton_Hips/Skeleton_Spine/Skeleton_Spine1/Skeleton_Spine2/Skeleton_LeftShoulder/Skeleton_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Skeleton_Reference1/Skeleton_Hips/Skeleton_Spine/Skeleton_Spine1/Skeleton_Spine2/Skeleton_LeftShoulder/Skeleton_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Skeleton_Reference1/Skeleton_Hips/Skeleton_Spine/Skeleton_Spine1/Skeleton_Spine2/Skeleton_LeftShoulder/Skeleton_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
     path: Skeleton_Reference1/Skeleton_Hips/Skeleton_Spine/Skeleton_Spine1/Skeleton_Spine2/Skeleton_LeftShoulder/Skeleton_LeftArm/Skeleton_LeftForeArm
     classID: 4
     script: {fileID: 0}
@@ -1018,36 +1048,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
     path: Skeleton_Reference1/Skeleton_Hips/Skeleton_Spine/Skeleton_Spine1/Skeleton_Spine2/Skeleton_RightShoulder/Skeleton_RightArm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Skeleton_Reference1/Skeleton_Hips/Skeleton_Spine/Skeleton_Spine1/Skeleton_Spine2/Skeleton_LeftShoulder/Skeleton_LeftArm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Skeleton_Reference1/Skeleton_Hips/Skeleton_Spine/Skeleton_Spine1/Skeleton_Spine2/Skeleton_LeftShoulder/Skeleton_LeftArm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Skeleton_Reference1/Skeleton_Hips/Skeleton_Spine/Skeleton_Spine1/Skeleton_Spine2/Skeleton_LeftShoulder/Skeleton_LeftArm
     classID: 4
     script: {fileID: 0}
   - curve:

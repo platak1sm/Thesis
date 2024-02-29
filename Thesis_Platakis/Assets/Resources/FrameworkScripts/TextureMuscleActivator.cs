@@ -155,7 +155,7 @@ public class TextureMuscleActivator : MuscleActivator
         }
     }
  
-    private void HandleForeArm(GameObject joint, float[] thresholds)
+    private void HandleForeArm(GameObject joint, float[] thresholds) 
     {
         string jname,jname2;
         float distance, distancel;
@@ -486,6 +486,23 @@ public class TextureMuscleActivator : MuscleActivator
         }
     }
 
+    Color DarkenColor(Color originalColor, float factor)
+    {
+        // Clamp the factor between 0 and 1
+        factor = Mathf.Clamp01(factor);
+
+        // Darken the color by reducing the red and green components
+        float newRed = originalColor.r * (1 - factor);
+        float newGreen = originalColor.g * (1 - factor);
+
+        // Keep the blue and alpha components unchanged
+        float newBlue = originalColor.b;
+        float newAlpha = originalColor.a;
+
+        // Return the new color
+        return new Color(newRed, newGreen, newBlue, newAlpha);
+    }
+
     public override void Activate()
     {
         throw new System.NotImplementedException();
@@ -496,13 +513,24 @@ public class TextureMuscleActivator : MuscleActivator
         m = muscle.GetComponent<Renderer>().material;
         if (intensity > 0)
         {
-            Color lerpedColor = Color.Lerp(Color.yellow, Color.red, intensity);
+            Color darkerYellow = DarkenColor(Color.yellow, 0.5f);
+            Color lerpedColor = Color.Lerp(darkerYellow, Color.red, intensity);
             //Debug.Log("Activated " + muscle.name + " with intensity " + intensity);
             m.color = lerpedColor;
+            m.SetColor("_EmissionColor", lerpedColor);
+            // If your material is using emission, you may need to enable it explicitly
+            m.EnableKeyword("_EMISSION");
+            // You might need to update the material to apply the changes
+            m.globalIlluminationFlags = MaterialGlobalIlluminationFlags.RealtimeEmissive;
         }
         else if (intensity == 0)
         {
             m.color = Color.white;
+            m.SetColor("_EmissionColor", Color.black);
+            // If your material is using emission, you may need to enable it explicitly
+            m.EnableKeyword("_EMISSION");
+            // You might need to update the material to apply the changes
+            m.globalIlluminationFlags = MaterialGlobalIlluminationFlags.RealtimeEmissive;
         }
 
     }
