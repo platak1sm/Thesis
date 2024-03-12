@@ -1,0 +1,3754 @@
+fileFormatVersion: 2
+guid: 8bb130c0aaafa45378e0810cbe847e80
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Head
+    second: {fileID: 2100000, guid: 887cc1f873d5b4fac9440232c010e241, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_InnerEyes
+    second: {fileID: 2100000, guid: 037a1dc5c826c49d08a2757f1a622a26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_NoGenitals1
+    second: {fileID: 2100000, guid: d6ee9b1575f584ebcb38f566d858aae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_OuterEyes
+    second: {fileID: 2100000, guid: 9775ed959b0eb45fea0618a43254ebb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Muscular_System
+    second: {fileID: 2100000, guid: a641207e2fe5245a8b4050be3fd3ce42, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tFound
+      duplicate transform 'OneSkeleton_r_eye' for human bone 'Jaw' and 'RightEye'\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: OneSkeleton_Hips1
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_r_eye1
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OneSkeleton_r_eye
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: HumanAnatomy_Muscles(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: non_separated1
+      parentName: HumanAnatomy_Muscles(Clone)
+      position: {x: 0.000000038146972, y: 0.90053546, z: -0.048126925}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_InnerEyes1
+      parentName: non_separated1
+      position: {x: -0.000000035762785, y: 0.81218106, z: 0.07942479}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface291
+      parentName: Body_InnerEyes1
+      position: {x: -0.0000000023841857, y: -0.000000013113022, z: -0.0000002759695}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface292
+      parentName: Body_InnerEyes1
+      position: {x: -0.0000000023841857, y: -0.000000013113022, z: -0.0000002759695}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_NoGenitals
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.018193537, z: 0.0014126349}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_OuterEyes1
+      parentName: non_separated1
+      position: {x: -0.000000035762785, y: 0.8121926, z: 0.080281705}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface289
+      parentName: Body_OuterEyes1
+      position: {x: -0.0000000023841857, y: -0.000000014305114, z: -0.00000012814998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface290
+      parentName: Body_OuterEyes1
+      position: {x: -0.0000000023841857, y: -0.000000014305114, z: -0.00000012814998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Abductor_Digiti_Minimi
+      parentName: non_separated1
+      position: {x: -0.0000002670288, y: -0.8876809, z: 0.004571564}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface287
+      parentName: Muscular_Abductor_Digiti_Minimi
+      position: {x: 0.00000022888183, y: -0.043555364, z: -0.012854654}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface288
+      parentName: Muscular_Abductor_Digiti_Minimi
+      position: {x: 0.00000022888183, y: -0.043555364, z: -0.012854654}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Abductor_Hallucis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: -0.8764508, z: 0.031751845}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface285
+      parentName: Muscular_Abductor_Hallucis
+      position: {x: -0, y: -0.016375078, z: -0.024084711}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface286
+      parentName: Muscular_Abductor_Hallucis
+      position: {x: -0, y: -0.016375078, z: -0.024084711}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Abductor_Pollicis_Longus
+      parentName: non_separated1
+      position: {x: 0.000081100465, y: 0.5397062, z: -0.039275773}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface283
+      parentName: Muscular_Abductor_Pollicis_Longus
+      position: {x: -0.00008113861, y: -0.087402694, z: -1.4402417}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface284
+      parentName: Muscular_Abductor_Pollicis_Longus
+      position: {x: -0.00008113861, y: -0.087402694, z: -1.4402417}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Adductor_Brevis
+      parentName: non_separated1
+      position: {x: 0.0000005531311, y: 0.00037733786, z: -0.030013923}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface281
+      parentName: Muscular_Adductor_Brevis
+      position: {x: -0.0000005912781, y: -0.07814085, z: -0.9009128}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface282
+      parentName: Muscular_Adductor_Brevis
+      position: {x: -0.0000005912781, y: -0.07814085, z: -0.9009128}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Adductor_Hallucis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: -0.8818724, z: 0.07018494}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface273
+      parentName: Muscular_Adductor_Hallucis
+      position: {x: -0, y: 0.022058014, z: -0.018663084}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface274
+      parentName: Muscular_Adductor_Hallucis
+      position: {x: -0, y: 0.022058014, z: -0.018663084}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface275
+      parentName: Muscular_Adductor_Hallucis
+      position: {x: -0, y: 0.022058014, z: -0.018663084}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface276
+      parentName: Muscular_Adductor_Hallucis
+      position: {x: -0, y: 0.022058014, z: -0.018663084}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface277
+      parentName: Muscular_Adductor_Hallucis
+      position: {x: -0, y: 0.022058014, z: -0.018663084}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface278
+      parentName: Muscular_Adductor_Hallucis
+      position: {x: -0, y: 0.022058014, z: -0.018663084}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface279
+      parentName: Muscular_Adductor_Hallucis
+      position: {x: -0, y: 0.022058014, z: -0.018663084}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface280
+      parentName: Muscular_Adductor_Hallucis
+      position: {x: -0, y: 0.022058014, z: -0.018663084}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Adductor_Longus
+      parentName: non_separated1
+      position: {x: -0.00000055789945, y: -0.06251115, z: -0.015041136}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface271
+      parentName: Muscular_Adductor_Longus
+      position: {x: 0.0000005197525, y: -0.063168064, z: -0.8380244}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface272
+      parentName: Muscular_Adductor_Longus
+      position: {x: 0.0000005197525, y: -0.063168064, z: -0.8380244}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Adductor_Magnus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: -0.15320893, z: -0.023978382}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface269
+      parentName: Muscular_Adductor_Magnus
+      position: {x: -0, y: -0.07210531, z: -0.74732655}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface270
+      parentName: Muscular_Adductor_Magnus
+      position: {x: -0, y: -0.07210531, z: -0.74732655}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Adductor_Pollicis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5113998, z: 0.018600613}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface267
+      parentName: Muscular_Adductor_Pollicis
+      position: {x: -0, y: -0.029526312, z: -1.4119354}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface268
+      parentName: Muscular_Adductor_Pollicis
+      position: {x: -0, y: -0.029526312, z: -1.4119354}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Anconeus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5514655, z: -0.12494299}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface265
+      parentName: Muscular_Anconeus
+      position: {x: -0, y: -0.17306991, z: -1.452001}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface266
+      parentName: Muscular_Anconeus
+      position: {x: -0, y: -0.17306991, z: -1.452001}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Anterior_Deltoideus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.601371, z: -0.074966736}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface263
+      parentName: Muscular_Anterior_Deltoideus
+      position: {x: -0, y: -0.12309366, z: -1.5019064}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface264
+      parentName: Muscular_Anterior_Deltoideus
+      position: {x: -0, y: -0.12309366, z: -1.5019064}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Auricularis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.8422618, z: 0.010513468}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface261
+      parentName: Muscular_Auricularis
+      position: {x: -0, y: -0.03761346, z: -1.7427973}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface262
+      parentName: Muscular_Auricularis
+      position: {x: -0, y: -0.03761346, z: -1.7427973}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Auricularis_Posterior
+      parentName: non_separated1
+      position: {x: 0.00018867015, y: 0.7958494, z: -0.037157763}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface259
+      parentName: Muscular_Auricularis_Posterior
+      position: {x: -0.0001887083, y: -0.08528469, z: -1.6963849}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface260
+      parentName: Muscular_Auricularis_Posterior
+      position: {x: -0.0001887083, y: -0.08528469, z: -1.6963849}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Biceps_Brachii
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5528323, z: -0.08657192}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface257
+      parentName: Muscular_Biceps_Brachii
+      position: {x: -0, y: -0.13469885, z: -1.4533678}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface258
+      parentName: Muscular_Biceps_Brachii
+      position: {x: -0, y: -0.13469885, z: -1.4533678}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Biceps_Femoris
+      parentName: non_separated1
+      position: {x: -0.000025644302, y: -0.19014366, z: -0.048353005}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface255
+      parentName: Muscular_Biceps_Femoris
+      position: {x: 0.000025606154, y: -0.09647993, z: -0.7103918}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface256
+      parentName: Muscular_Biceps_Femoris
+      position: {x: 0.000025606154, y: -0.09647993, z: -0.7103918}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Brachialis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5478789, z: -0.105265155}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface253
+      parentName: Muscular_Brachialis
+      position: {x: -0, y: -0.15339208, z: -1.4484144}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface254
+      parentName: Muscular_Brachialis
+      position: {x: -0, y: -0.15339208, z: -1.4484144}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Brachioradialis
+      parentName: non_separated1
+      position: {x: -0, y: 0.55176663, z: -0.062138375}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface251
+      parentName: Muscular_Brachioradialis
+      position: {x: -0.000000038146972, y: -0.1102653, z: -1.4523022}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface252
+      parentName: Muscular_Brachioradialis
+      position: {x: -0.000000038146972, y: -0.1102653, z: -1.4523022}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Buccinator
+      parentName: non_separated1
+      position: {x: -0.00000004053116, y: 0.7493922, z: 0.062735476}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface249
+      parentName: Muscular_Buccinator
+      position: {x: 0.0000000023841857, y: 0.014608551, z: -1.6499276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface250
+      parentName: Muscular_Buccinator
+      position: {x: 0.0000000023841857, y: 0.014608551, z: -1.6499276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Caninus
+      parentName: non_separated1
+      position: {x: -0.000000039339064, y: 0.7658918, z: 0.08201836}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface247
+      parentName: Muscular_Caninus
+      position: {x: 0.0000000011920929, y: 0.03389144, z: -1.6664273}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface248
+      parentName: Muscular_Caninus
+      position: {x: 0.0000000011920929, y: 0.03389144, z: -1.6664273}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Coracobrachialis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5654771, z: -0.100324266}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface245
+      parentName: Muscular_Coracobrachialis
+      position: {x: -0, y: -0.1484512, z: -1.4660126}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface246
+      parentName: Muscular_Coracobrachialis
+      position: {x: -0, y: -0.1484512, z: -1.4660126}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Corrugator
+      parentName: non_separated1
+      position: {x: -0.000000035762785, y: 0.82834285, z: 0.09250557}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface243
+      parentName: Muscular_Corrugator
+      position: {x: -0.0000000023841857, y: 0.044378642, z: -1.7288785}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface244
+      parentName: Muscular_Corrugator
+      position: {x: -0.0000000023841857, y: 0.044378642, z: -1.7288785}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Depressor_Anguli_Oris
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.7153789, z: 0.06614056}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface241
+      parentName: Muscular_Depressor_Anguli_Oris
+      position: {x: -0, y: 0.018013634, z: -1.6159142}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface242
+      parentName: Muscular_Depressor_Anguli_Oris
+      position: {x: -0, y: 0.018013634, z: -1.6159142}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Depressor_Labii_Inferioris
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.71581, z: 0.07293374}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface239
+      parentName: Muscular_Depressor_Labii_Inferioris
+      position: {x: -0, y: 0.024806818, z: -1.6163455}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface240
+      parentName: Muscular_Depressor_Labii_Inferioris
+      position: {x: -0, y: 0.024806818, z: -1.6163455}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Digastricus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.7356613, z: 0.030406876}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface237
+      parentName: Muscular_Digastricus
+      position: {x: -0, y: -0.017720051, z: -1.6361969}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface238
+      parentName: Muscular_Digastricus
+      position: {x: -0, y: -0.017720051, z: -1.6361969}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Dilator_Naris
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.83012474, z: -1.5814542}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Dorsal_Intersosseus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.52040404, z: 0.011946973}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface225
+      parentName: Muscular_Dorsal_Intersosseus
+      position: {x: -0, y: -0.036179952, z: -1.4209396}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface226
+      parentName: Muscular_Dorsal_Intersosseus
+      position: {x: -0, y: -0.036179952, z: -1.4209396}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface227
+      parentName: Muscular_Dorsal_Intersosseus
+      position: {x: -0, y: -0.036179952, z: -1.4209396}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface228
+      parentName: Muscular_Dorsal_Intersosseus
+      position: {x: -0, y: -0.036179952, z: -1.4209396}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface229
+      parentName: Muscular_Dorsal_Intersosseus
+      position: {x: -0, y: -0.036179952, z: -1.4209396}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface230
+      parentName: Muscular_Dorsal_Intersosseus
+      position: {x: -0, y: -0.036179952, z: -1.4209396}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface231
+      parentName: Muscular_Dorsal_Intersosseus
+      position: {x: -0, y: -0.036179952, z: -1.4209396}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface232
+      parentName: Muscular_Dorsal_Intersosseus
+      position: {x: -0, y: -0.036179952, z: -1.4209396}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface233
+      parentName: Muscular_Dorsal_Intersosseus
+      position: {x: -0, y: -0.036179952, z: -1.4209396}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface234
+      parentName: Muscular_Dorsal_Intersosseus
+      position: {x: -0, y: -0.036179952, z: -1.4209396}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface235
+      parentName: Muscular_Dorsal_Intersosseus
+      position: {x: -0, y: -0.036179952, z: -1.4209396}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface236
+      parentName: Muscular_Dorsal_Intersosseus
+      position: {x: -0, y: -0.036179952, z: -1.4209396}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Dorsal_Plantar_Interossei
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: -0.8649518, z: 0.07909994}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface217
+      parentName: Muscular_Dorsal_Plantar_Interossei
+      position: {x: -0, y: 0.030973013, z: -0.03558376}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface218
+      parentName: Muscular_Dorsal_Plantar_Interossei
+      position: {x: -0, y: 0.030973013, z: -0.03558376}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface219
+      parentName: Muscular_Dorsal_Plantar_Interossei
+      position: {x: -0, y: 0.030973013, z: -0.03558376}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface220
+      parentName: Muscular_Dorsal_Plantar_Interossei
+      position: {x: -0, y: 0.030973013, z: -0.03558376}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface221
+      parentName: Muscular_Dorsal_Plantar_Interossei
+      position: {x: -0, y: 0.030973013, z: -0.03558376}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface222
+      parentName: Muscular_Dorsal_Plantar_Interossei
+      position: {x: -0, y: 0.030973013, z: -0.03558376}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface223
+      parentName: Muscular_Dorsal_Plantar_Interossei
+      position: {x: -0, y: 0.030973013, z: -0.03558376}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface224
+      parentName: Muscular_Dorsal_Plantar_Interossei
+      position: {x: -0, y: 0.030973013, z: -0.03558376}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Carpi_Radialis_Brevis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5438122, z: -0.058565296}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface215
+      parentName: Muscular_Extensor_Carpi_Radialis_Brevis
+      position: {x: -0, y: -0.10669222, z: -1.4443479}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface216
+      parentName: Muscular_Extensor_Carpi_Radialis_Brevis
+      position: {x: -0, y: -0.10669222, z: -1.4443479}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Carpi_Radialis_Longus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.54957813, z: -0.05629821}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface213
+      parentName: Muscular_Extensor_Carpi_Radialis_Longus
+      position: {x: -0, y: -0.10442514, z: -1.4501137}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface214
+      parentName: Muscular_Extensor_Carpi_Radialis_Longus
+      position: {x: -0, y: -0.10442514, z: -1.4501137}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Carpi_Ulnaris
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5405111, z: -0.073848866}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface211
+      parentName: Muscular_Extensor_Carpi_Ulnaris
+      position: {x: -0, y: -0.121975794, z: -1.4410466}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface212
+      parentName: Muscular_Extensor_Carpi_Ulnaris
+      position: {x: -0, y: -0.121975794, z: -1.4410466}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Digitorum
+      parentName: non_separated1
+      position: {x: -0, y: 0.5307689, z: -0.01426419}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface209
+      parentName: Muscular_Extensor_Digitorum
+      position: {x: -0.000000038146972, y: -0.062391117, z: -1.4313043}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface210
+      parentName: Muscular_Extensor_Digitorum
+      position: {x: -0.000000038146972, y: -0.062391117, z: -1.4313043}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Digitorum_Brevis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: -0.86457944, z: 0.06203346}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface207
+      parentName: Muscular_Extensor_Digitorum_Brevis
+      position: {x: -0, y: 0.013906536, z: -0.035956085}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface208
+      parentName: Muscular_Extensor_Digitorum_Brevis
+      position: {x: -0, y: 0.013906536, z: -0.035956085}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Digitorum_Longus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: -0.64899266, z: 0.07792966}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface205
+      parentName: Muscular_Extensor_Digitorum_Longus
+      position: {x: -0, y: 0.029802732, z: -0.25154284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface206
+      parentName: Muscular_Extensor_Digitorum_Longus
+      position: {x: -0, y: 0.029802732, z: -0.25154284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Hallucis_Longus
+      parentName: non_separated1
+      position: {x: -0.000000042915342, y: -0.70484364, z: 0.07289789}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface203
+      parentName: Muscular_Extensor_Hallucis_Longus
+      position: {x: 0.0000000047683715, y: 0.024770968, z: -0.19569181}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface204
+      parentName: Muscular_Extensor_Hallucis_Longus
+      position: {x: 0.0000000047683715, y: 0.024770968, z: -0.19569181}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Pollicis_Longus_and_Brevis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5259642, z: -0.005588611}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface201
+      parentName: Muscular_Extensor_Pollicis_Longus_and_Brevis
+      position: {x: -0, y: -0.05371554, z: -1.4264996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface202
+      parentName: Muscular_Extensor_Pollicis_Longus_and_Brevis
+      position: {x: -0, y: -0.05371554, z: -1.4264996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_First_Dorsal_Interosseus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.52595997, z: 0.04170762}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface199
+      parentName: Muscular_First_Dorsal_Interosseus
+      position: {x: -0, y: -0.0064193066, z: -1.4264954}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface200
+      parentName: Muscular_First_Dorsal_Interosseus
+      position: {x: -0, y: -0.0064193066, z: -1.4264954}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Carpi_Radialis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5137374, z: -0.04694891}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface197
+      parentName: Muscular_Flexor_Carpi_Radialis
+      position: {x: -0, y: -0.09507583, z: -1.4142729}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface198
+      parentName: Muscular_Flexor_Carpi_Radialis
+      position: {x: -0, y: -0.09507583, z: -1.4142729}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Carpi_Ulnaris
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5190509, z: -0.07838318}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface195
+      parentName: Muscular_Flexor_Carpi_Ulnaris
+      position: {x: -0, y: -0.1265101, z: -1.4195864}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface196
+      parentName: Muscular_Flexor_Carpi_Ulnaris
+      position: {x: -0, y: -0.1265101, z: -1.4195864}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Digiti_Minimi_Brevis
+      parentName: non_separated1
+      position: {x: -0.0000013065338, y: -0.88452923, z: 0.054811276}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface193
+      parentName: Muscular_Flexor_Digiti_Minimi_Brevis
+      position: {x: 0.0000012683868, y: 0.006684352, z: -0.016006285}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface194
+      parentName: Muscular_Flexor_Digiti_Minimi_Brevis
+      position: {x: 0.0000012683868, y: 0.006684352, z: -0.016006285}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Digitorum_Brevis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: -0.8868674, z: 0.047033925}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface191
+      parentName: Muscular_Flexor_Digitorum_Brevis
+      position: {x: -0, y: -0.0010930013, z: -0.013668095}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface192
+      parentName: Muscular_Flexor_Digitorum_Brevis
+      position: {x: -0, y: -0.0010930013, z: -0.013668095}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Digitorum_Longus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: -0.6951708, z: 0.060081217}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface189
+      parentName: Muscular_Flexor_Digitorum_Longus
+      position: {x: -0, y: 0.011954293, z: -0.2053647}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface190
+      parentName: Muscular_Flexor_Digitorum_Longus
+      position: {x: -0, y: 0.011954293, z: -0.2053647}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Digitorum_Superficialis
+      parentName: non_separated1
+      position: {x: -0.00000015258789, y: 0.5102505, z: -0.018772615}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface187
+      parentName: Muscular_Flexor_Digitorum_Superficialis
+      position: {x: 0.000000114440915, y: -0.06689954, z: -1.4107862}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface188
+      parentName: Muscular_Flexor_Digitorum_Superficialis
+      position: {x: 0.000000114440915, y: -0.06689954, z: -1.4107862}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Hallucis_Brevis
+      parentName: non_separated1
+      position: {x: -0.0000000333786, y: -0.885772, z: 0.08278186}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface183
+      parentName: Muscular_Flexor_Hallucis_Brevis
+      position: {x: -0.0000000047683715, y: 0.03465493, z: -0.0147635145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface184
+      parentName: Muscular_Flexor_Hallucis_Brevis
+      position: {x: -0.0000000047683715, y: 0.03465493, z: -0.0147635145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface185
+      parentName: Muscular_Flexor_Hallucis_Brevis
+      position: {x: -0.0000000047683715, y: 0.03465493, z: -0.0147635145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface186
+      parentName: Muscular_Flexor_Hallucis_Brevis
+      position: {x: -0.0000000047683715, y: 0.03465493, z: -0.0147635145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Hallucis_Longus
+      parentName: non_separated1
+      position: {x: -0.000000042915342, y: -0.71037626, z: 0.05116077}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface181
+      parentName: Muscular_Flexor_Hallucis_Longus
+      position: {x: 0.0000000047683715, y: 0.0030338478, z: -0.19015926}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface182
+      parentName: Muscular_Flexor_Hallucis_Longus
+      position: {x: 0.0000000047683715, y: 0.0030338478, z: -0.19015926}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Pollicis_Longus
+      parentName: non_separated1
+      position: {x: -0, y: 0.52106285, z: -0.013893912}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface179
+      parentName: Muscular_Flexor_Pollicis_Longus
+      position: {x: -0.000000038146972, y: -0.062020835, z: -1.4215983}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface180
+      parentName: Muscular_Flexor_Pollicis_Longus
+      position: {x: -0.000000038146972, y: -0.062020835, z: -1.4215983}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Frontalis
+      parentName: non_separated1
+      position: {x: -0.00000004053116, y: 0.8637616, z: 0.07718618}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface177
+      parentName: Muscular_Frontalis
+      position: {x: 0.0000000023841857, y: 0.029059257, z: -1.7642971}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface178
+      parentName: Muscular_Frontalis
+      position: {x: 0.0000000023841857, y: 0.029059257, z: -1.7642971}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Gastrocnemius
+      parentName: non_separated1
+      position: {x: 0.000002374649, y: -0.60790825, z: -0.037796367}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface175
+      parentName: Muscular_Gastrocnemius
+      position: {x: -0.000002412796, y: -0.0859233, z: -0.29262725}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface176
+      parentName: Muscular_Gastrocnemius
+      position: {x: -0.000002412796, y: -0.0859233, z: -0.29262725}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Gluteus_Maximus_superficial
+      parentName: non_separated1
+      position: {x: 0.00003633499, y: 0.08994441, z: -0.11080701}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface173
+      parentName: Muscular_Gluteus_Maximus_superficial
+      position: {x: -0.000036373138, y: -0.15893394, z: -0.9904799}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface174
+      parentName: Muscular_Gluteus_Maximus_superficial
+      position: {x: -0.000036373138, y: -0.15893394, z: -0.9904799}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Gluteus_Medius
+      parentName: non_separated1
+      position: {x: 0.000029840468, y: 0.133883, z: -0.071414545}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface171
+      parentName: Muscular_Gluteus_Medius
+      position: {x: -0.000029878616, y: -0.11954147, z: -1.0344185}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface172
+      parentName: Muscular_Gluteus_Medius
+      position: {x: -0.000029878616, y: -0.11954147, z: -1.0344185}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Gluteus_Minimus
+      parentName: non_separated1
+      position: {x: 0.00006786346, y: 0.12413264, z: -0.052886274}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface169
+      parentName: Muscular_Gluteus_Minimus
+      position: {x: -0.00006790161, y: -0.1010132, z: -1.0246681}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface170
+      parentName: Muscular_Gluteus_Minimus
+      position: {x: -0.00006790161, y: -0.1010132, z: -1.0246681}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Gracilis
+      parentName: non_separated1
+      position: {x: -0.0000000333786, y: -0.1864378, z: -0.023810247}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface167
+      parentName: Muscular_Gracilis
+      position: {x: -0.0000000047683715, y: -0.07193717, z: -0.71409774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface168
+      parentName: Muscular_Gracilis
+      position: {x: -0.0000000047683715, y: -0.07193717, z: -0.71409774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Hypothenar_Eminence
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5089926, z: -0.016884344}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface163
+      parentName: Muscular_Hypothenar_Eminence
+      position: {x: -0, y: -0.06501127, z: -1.4095281}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface164
+      parentName: Muscular_Hypothenar_Eminence
+      position: {x: -0, y: -0.06501127, z: -1.4095281}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface165
+      parentName: Muscular_Hypothenar_Eminence
+      position: {x: -0, y: -0.06501127, z: -1.4095281}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface166
+      parentName: Muscular_Hypothenar_Eminence
+      position: {x: -0, y: -0.06501127, z: -1.4095281}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Iliacus
+      parentName: non_separated1
+      position: {x: -0.0000033807753, y: 0.105382904, z: -0.05933745}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface161
+      parentName: Muscular_Iliacus
+      position: {x: 0.0000033426284, y: -0.107464366, z: -1.0059184}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface162
+      parentName: Muscular_Iliacus
+      position: {x: 0.0000033426284, y: -0.107464366, z: -1.0059184}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Illiocostalis_Lumborum
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.41693008, z: -0.086386345}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface159
+      parentName: Muscular_Illiocostalis_Lumborum
+      position: {x: -0, y: -0.13451327, z: -1.3174655}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface160
+      parentName: Muscular_Illiocostalis_Lumborum
+      position: {x: -0, y: -0.13451327, z: -1.3174655}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Infraspinatus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5266817, z: -0.14397341}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface157
+      parentName: Muscular_Infraspinatus
+      position: {x: -0, y: -0.19210033, z: -1.4272172}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface158
+      parentName: Muscular_Infraspinatus
+      position: {x: -0, y: -0.19210033, z: -1.4272172}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Interossei_Palmares
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.51542664, z: 0.018612387}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface143
+      parentName: Muscular_Interossei_Palmares
+      position: {x: -0, y: -0.029514538, z: -1.4159622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface144
+      parentName: Muscular_Interossei_Palmares
+      position: {x: -0, y: -0.029514538, z: -1.4159622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface145
+      parentName: Muscular_Interossei_Palmares
+      position: {x: -0, y: -0.029514538, z: -1.4159622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface146
+      parentName: Muscular_Interossei_Palmares
+      position: {x: -0, y: -0.029514538, z: -1.4159622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface147
+      parentName: Muscular_Interossei_Palmares
+      position: {x: -0, y: -0.029514538, z: -1.4159622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface148
+      parentName: Muscular_Interossei_Palmares
+      position: {x: -0, y: -0.029514538, z: -1.4159622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface149
+      parentName: Muscular_Interossei_Palmares
+      position: {x: -0, y: -0.029514538, z: -1.4159622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface150
+      parentName: Muscular_Interossei_Palmares
+      position: {x: -0, y: -0.029514538, z: -1.4159622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface151
+      parentName: Muscular_Interossei_Palmares
+      position: {x: -0, y: -0.029514538, z: -1.4159622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface152
+      parentName: Muscular_Interossei_Palmares
+      position: {x: -0, y: -0.029514538, z: -1.4159622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface153
+      parentName: Muscular_Interossei_Palmares
+      position: {x: -0, y: -0.029514538, z: -1.4159622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface154
+      parentName: Muscular_Interossei_Palmares
+      position: {x: -0, y: -0.029514538, z: -1.4159622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface155
+      parentName: Muscular_Interossei_Palmares
+      position: {x: -0, y: -0.029514538, z: -1.4159622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface156
+      parentName: Muscular_Interossei_Palmares
+      position: {x: -0, y: -0.029514538, z: -1.4159622}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Interspinales
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.68529207, z: -0.082151204}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface133
+      parentName: Muscular_Interspinales
+      position: {x: -0, y: -0.13027813, z: -1.5858276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface134
+      parentName: Muscular_Interspinales
+      position: {x: -0, y: -0.13027813, z: -1.5858276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface135
+      parentName: Muscular_Interspinales
+      position: {x: -0, y: -0.13027813, z: -1.5858276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface136
+      parentName: Muscular_Interspinales
+      position: {x: -0, y: -0.13027813, z: -1.5858276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface137
+      parentName: Muscular_Interspinales
+      position: {x: -0, y: -0.13027813, z: -1.5858276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface138
+      parentName: Muscular_Interspinales
+      position: {x: -0, y: -0.13027813, z: -1.5858276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface139
+      parentName: Muscular_Interspinales
+      position: {x: -0, y: -0.13027813, z: -1.5858276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface140
+      parentName: Muscular_Interspinales
+      position: {x: -0, y: -0.13027813, z: -1.5858276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface141
+      parentName: Muscular_Interspinales
+      position: {x: -0, y: -0.13027813, z: -1.5858276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface142
+      parentName: Muscular_Interspinales
+      position: {x: -0, y: -0.13027813, z: -1.5858276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Latissimus_Dorsi
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.17119567, z: -1.3496178}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Levator_Costarum
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5044163, z: -0.10655833}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface109
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface110
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface111
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface112
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface113
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface114
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface115
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface116
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface117
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface118
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface119
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface120
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface121
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface122
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface123
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface124
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface125
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface126
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface127
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface128
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface129
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface130
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface131
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface132
+      parentName: Muscular_Levator_Costarum
+      position: {x: -0, y: -0.15468526, z: -1.4049517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Levator_Labii_Superioris
+      parentName: non_separated1
+      position: {x: -0.000000039339064, y: 0.770493, z: 0.084750175}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface107
+      parentName: Muscular_Levator_Labii_Superioris
+      position: {x: 0.0000000011920929, y: 0.036623247, z: -1.6710284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface108
+      parentName: Muscular_Levator_Labii_Superioris
+      position: {x: 0.0000000011920929, y: 0.036623247, z: -1.6710284}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Levator_Labii_Superioris_Alaeque_Nasi
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.78212273, z: 0.088903524}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface105
+      parentName: Muscular_Levator_Labii_Superioris_Alaeque_Nasi
+      position: {x: -0, y: 0.04077659, z: -1.6826582}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface106
+      parentName: Muscular_Levator_Labii_Superioris_Alaeque_Nasi
+      position: {x: -0, y: 0.04077659, z: -1.6826582}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Levator_Scapulae
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.6692148, z: -0.08751313}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface103
+      parentName: Muscular_Levator_Scapulae
+      position: {x: -0, y: -0.13564005, z: -1.5697503}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface104
+      parentName: Muscular_Levator_Scapulae
+      position: {x: -0, y: -0.13564005, z: -1.5697503}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Longissimus_Capitis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.7272411, z: -0.044156015}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface101
+      parentName: Muscular_Longissimus_Capitis
+      position: {x: -0, y: -0.09228294, z: -1.6277766}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface102
+      parentName: Muscular_Longissimus_Capitis
+      position: {x: -0, y: -0.09228294, z: -1.6277766}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Longus_Capitus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.7259294, z: -0.010775272}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface99
+      parentName: Muscular_Longus_Capitus
+      position: {x: -0, y: -0.058902197, z: -1.6264648}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface100
+      parentName: Muscular_Longus_Capitus
+      position: {x: -0, y: -0.058902197, z: -1.6264648}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Longus_Colli
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.6622315, z: -0.035569664}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface97
+      parentName: Muscular_Longus_Colli
+      position: {x: -0, y: -0.08369659, z: -1.562767}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface98
+      parentName: Muscular_Longus_Colli
+      position: {x: -0, y: -0.08369659, z: -1.562767}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Lumbricales_Palmares
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5174902, z: 0.017915042}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface89
+      parentName: Muscular_Lumbricales_Palmares
+      position: {x: -0, y: -0.030211883, z: -1.4180257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface90
+      parentName: Muscular_Lumbricales_Palmares
+      position: {x: -0, y: -0.030211883, z: -1.4180257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface91
+      parentName: Muscular_Lumbricales_Palmares
+      position: {x: -0, y: -0.030211883, z: -1.4180257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface92
+      parentName: Muscular_Lumbricales_Palmares
+      position: {x: -0, y: -0.030211883, z: -1.4180257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface93
+      parentName: Muscular_Lumbricales_Palmares
+      position: {x: -0, y: -0.030211883, z: -1.4180257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface94
+      parentName: Muscular_Lumbricales_Palmares
+      position: {x: -0, y: -0.030211883, z: -1.4180257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface95
+      parentName: Muscular_Lumbricales_Palmares
+      position: {x: -0, y: -0.030211883, z: -1.4180257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface96
+      parentName: Muscular_Lumbricales_Palmares
+      position: {x: -0, y: -0.030211883, z: -1.4180257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Masseter
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.75680566, z: 0.041402396}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface87
+      parentName: Muscular_Masseter
+      position: {x: -0, y: -0.0067245313, z: -1.6573411}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface88
+      parentName: Muscular_Masseter
+      position: {x: -0, y: -0.0067245313, z: -1.6573411}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Medial_Deltoideus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.6040852, z: -0.09181845}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface85
+      parentName: Muscular_Medial_Deltoideus
+      position: {x: -0, y: -0.13994537, z: -1.5046207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface86
+      parentName: Muscular_Medial_Deltoideus
+      position: {x: -0, y: -0.13994537, z: -1.5046207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Mentalis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.7459167, z: -1.5283707}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Mylohyoideus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.7104661, z: 0.051473383}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface83
+      parentName: Muscular_Mylohyoideus
+      position: {x: -0, y: 0.0033464574, z: -1.6110015}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface84
+      parentName: Muscular_Mylohyoideus
+      position: {x: -0, y: 0.0033464574, z: -1.6110015}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Nasalis
+      parentName: non_separated1
+      position: {x: -0.000000039339064, y: 0.78384644, z: 0.094256364}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface81
+      parentName: Muscular_Nasalis
+      position: {x: 0.0000000011920929, y: 0.04612944, z: -1.684382}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface82
+      parentName: Muscular_Nasalis
+      position: {x: 0.0000000011920929, y: 0.04612944, z: -1.684382}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Obliquus_Capitis_Inferior
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.7612899, z: -0.032381784}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface79
+      parentName: Muscular_Obliquus_Capitis_Inferior
+      position: {x: -0, y: -0.08050871, z: -1.6618254}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface80
+      parentName: Muscular_Obliquus_Capitis_Inferior
+      position: {x: -0, y: -0.08050871, z: -1.6618254}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Obliquus_Capitis_Superior
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.7363113, z: -0.048097875}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface77
+      parentName: Muscular_Obliquus_Capitis_Superior
+      position: {x: -0, y: -0.0962248, z: -1.6368469}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface78
+      parentName: Muscular_Obliquus_Capitis_Superior
+      position: {x: -0, y: -0.0962248, z: -1.6368469}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Obliquus_Externus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.23945639, z: -1.2106605}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Obliquus_Internus
+      parentName: non_separated1
+      position: {x: -0.000007395744, y: 0.24568518, z: -0.027118819}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface75
+      parentName: Muscular_Obliquus_Internus
+      position: {x: 0.000007357597, y: -0.07524574, z: -1.1462207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface76
+      parentName: Muscular_Obliquus_Internus
+      position: {x: 0.000007357597, y: -0.07524574, z: -1.1462207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Obturator_Externus
+      parentName: non_separated1
+      position: {x: 0.00004313469, y: 0.03671801, z: -0.050993554}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface73
+      parentName: Muscular_Obturator_Externus
+      position: {x: -0.000043172837, y: -0.09912048, z: -0.93725353}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface74
+      parentName: Muscular_Obturator_Externus
+      position: {x: -0.000043172837, y: -0.09912048, z: -0.93725353}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Obturator_Internus
+      parentName: non_separated1
+      position: {x: 0.00005858898, y: 0.0315573, z: -0.087463}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface71
+      parentName: Muscular_Obturator_Internus
+      position: {x: -0.000058627127, y: -0.13558993, z: -0.9320928}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface72
+      parentName: Muscular_Obturator_Internus
+      position: {x: -0.000058627127, y: -0.13558993, z: -0.9320928}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Occipitalis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.81710285, z: -0.07227026}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface69
+      parentName: Muscular_Occipitalis
+      position: {x: -0, y: -0.12039718, z: -1.7176384}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface70
+      parentName: Muscular_Occipitalis
+      position: {x: -0, y: -0.12039718, z: -1.7176384}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Omohyoideus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.65189373, z: -0.03830104}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface67
+      parentName: Muscular_Omohyoideus
+      position: {x: -0, y: -0.086427964, z: -1.5524292}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface68
+      parentName: Muscular_Omohyoideus
+      position: {x: -0, y: -0.086427964, z: -1.5524292}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Opponens_Pollicis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.51203895, z: 0.03704844}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface65
+      parentName: Muscular_Opponens_Pollicis
+      position: {x: -0, y: -0.011078485, z: -1.4125744}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface66
+      parentName: Muscular_Opponens_Pollicis
+      position: {x: -0, y: -0.011078485, z: -1.4125744}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Orbicularis_Oculi
+      parentName: non_separated1
+      position: {x: -0.000000035762785, y: 0.80666775, z: 0.08266445}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface63
+      parentName: Muscular_Orbicularis_Oculi
+      position: {x: -0.0000000023841857, y: 0.03453752, z: -1.7072034}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface64
+      parentName: Muscular_Orbicularis_Oculi
+      position: {x: -0.0000000023841857, y: 0.03453752, z: -1.7072034}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Orbicularis_Oris
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.77808, z: -1.5552434}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Palmaris_Longus
+      parentName: non_separated1
+      position: {x: 0.0002761841, y: 0.5107711, z: -0.04158627}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface61
+      parentName: Muscular_Palmaris_Longus
+      position: {x: -0.0002762222, y: -0.0897132, z: -1.4113066}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface62
+      parentName: Muscular_Palmaris_Longus
+      position: {x: -0.0002762222, y: -0.0897132, z: -1.4113066}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Pectineus
+      parentName: non_separated1
+      position: {x: 0.00000006198883, y: 0.03325072, z: -0.03380341}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface59
+      parentName: Muscular_Pectineus
+      position: {x: -0.0000001001358, y: -0.08193034, z: -0.9337862}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface60
+      parentName: Muscular_Pectineus
+      position: {x: -0.0000001001358, y: -0.08193034, z: -0.9337862}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Pectoralis_Major
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5269188, z: -0.017011186}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface57
+      parentName: Muscular_Pectoralis_Major
+      position: {x: -0, y: -0.06513811, z: -1.4274544}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface58
+      parentName: Muscular_Pectoralis_Major
+      position: {x: -0, y: -0.06513811, z: -1.4274544}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Pectoralis_Minor
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.54055035, z: -0.012071347}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface55
+      parentName: Muscular_Pectoralis_Minor
+      position: {x: -0, y: -0.060198274, z: -1.4410858}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface56
+      parentName: Muscular_Pectoralis_Minor
+      position: {x: -0, y: -0.060198274, z: -1.4410858}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Peroneus_Brevis
+      parentName: non_separated1
+      position: {x: -0.00000032424927, y: -0.7298389, z: -0.009926444}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface53
+      parentName: Muscular_Peroneus_Brevis
+      position: {x: 0.00000028610228, y: -0.058053367, z: -0.17069656}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface54
+      parentName: Muscular_Peroneus_Brevis
+      position: {x: 0.00000028610228, y: -0.058053367, z: -0.17069656}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Peroneus_Longus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: -0.6458147, z: -0.00047141625}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface51
+      parentName: Muscular_Peroneus_Longus
+      position: {x: -0, y: -0.04859834, z: -0.25472078}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface52
+      parentName: Muscular_Peroneus_Longus
+      position: {x: -0, y: -0.04859834, z: -0.25472078}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Peroneus_Tertius
+      parentName: non_separated1
+      position: {x: -0.0000022315978, y: -0.7616842, z: -0.002647662}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface49
+      parentName: Muscular_Peroneus_Tertius
+      position: {x: 0.0000021934509, y: -0.05077459, z: -0.13885131}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface50
+      parentName: Muscular_Peroneus_Tertius
+      position: {x: 0.0000021934509, y: -0.05077459, z: -0.13885131}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Piriformis
+      parentName: non_separated1
+      position: {x: 0.00004532337, y: 0.08342818, z: -0.09961295}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface47
+      parentName: Muscular_Piriformis
+      position: {x: -0.000045361518, y: -0.14773987, z: -0.98396367}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface48
+      parentName: Muscular_Piriformis
+      position: {x: -0.000045361518, y: -0.14773987, z: -0.98396367}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Plantar_Interossei
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: -0.8774981, z: 0.07060018}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface41
+      parentName: Muscular_Plantar_Interossei
+      position: {x: -0, y: 0.022473253, z: -0.023037424}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface42
+      parentName: Muscular_Plantar_Interossei
+      position: {x: -0, y: 0.022473253, z: -0.023037424}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface43
+      parentName: Muscular_Plantar_Interossei
+      position: {x: -0, y: 0.022473253, z: -0.023037424}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface44
+      parentName: Muscular_Plantar_Interossei
+      position: {x: -0, y: 0.022473253, z: -0.023037424}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface45
+      parentName: Muscular_Plantar_Interossei
+      position: {x: -0, y: 0.022473253, z: -0.023037424}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface46
+      parentName: Muscular_Plantar_Interossei
+      position: {x: -0, y: 0.022473253, z: -0.023037424}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Plantar_Lumbricales
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: -0.8875005, z: 0.07610318}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface33
+      parentName: Muscular_Plantar_Lumbricales
+      position: {x: -0, y: 0.027976252, z: -0.013034959}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface34
+      parentName: Muscular_Plantar_Lumbricales
+      position: {x: -0, y: 0.027976252, z: -0.013034959}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface35
+      parentName: Muscular_Plantar_Lumbricales
+      position: {x: -0, y: 0.027976252, z: -0.013034959}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface36
+      parentName: Muscular_Plantar_Lumbricales
+      position: {x: -0, y: 0.027976252, z: -0.013034959}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface37
+      parentName: Muscular_Plantar_Lumbricales
+      position: {x: -0, y: 0.027976252, z: -0.013034959}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface38
+      parentName: Muscular_Plantar_Lumbricales
+      position: {x: -0, y: 0.027976252, z: -0.013034959}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface39
+      parentName: Muscular_Plantar_Lumbricales
+      position: {x: -0, y: 0.027976252, z: -0.013034959}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface40
+      parentName: Muscular_Plantar_Lumbricales
+      position: {x: -0, y: 0.027976252, z: -0.013034959}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Plantaris
+      parentName: non_separated1
+      position: {x: 0.000009202957, y: -0.60064846, z: -0.0323592}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface31
+      parentName: Muscular_Plantaris
+      position: {x: -0.000009241104, y: -0.080486126, z: -0.29988703}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface32
+      parentName: Muscular_Plantaris
+      position: {x: -0.000009241104, y: -0.080486126, z: -0.29988703}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Popliteus
+      parentName: non_separated1
+      position: {x: 0.0000004959106, y: -0.40346104, z: 0.007153162}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface29
+      parentName: Muscular_Popliteus
+      position: {x: -0.0000005340576, y: -0.040973764, z: -0.49707448}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface30
+      parentName: Muscular_Popliteus
+      position: {x: -0.0000005340576, y: -0.040973764, z: -0.49707448}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Posterior_Deltoideus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.57842785, z: -0.12886694}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface27
+      parentName: Muscular_Posterior_Deltoideus
+      position: {x: -0, y: -0.17699386, z: -1.4789633}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface28
+      parentName: Muscular_Posterior_Deltoideus
+      position: {x: -0, y: -0.17699386, z: -1.4789633}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Procerus
+      parentName: non_separated1
+      position: {x: -0.00000003904104, y: 0.814317, z: 0.095297046}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface25
+      parentName: Muscular_Procerus
+      position: {x: 8.9406965e-10, y: 0.04717012, z: -1.7148526}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface26
+      parentName: Muscular_Procerus
+      position: {x: 8.9406965e-10, y: 0.04717012, z: -1.7148526}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Pronator_Quadratus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5239523, z: -0.023829615}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface23
+      parentName: Muscular_Pronator_Quadratus
+      position: {x: -0, y: -0.07195654, z: -1.4244878}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface24
+      parentName: Muscular_Pronator_Quadratus
+      position: {x: -0, y: -0.07195654, z: -1.4244878}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Pronator_Teres
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.53296155, z: -0.09417804}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface21
+      parentName: Muscular_Pronator_Teres
+      position: {x: -0, y: -0.14230497, z: -1.433497}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface22
+      parentName: Muscular_Pronator_Teres
+      position: {x: -0, y: -0.14230497, z: -1.433497}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Psoas_Major
+      parentName: non_separated1
+      position: {x: -0.000000333786, y: 0.21363023, z: -0.064917095}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface19
+      parentName: Muscular_Psoas_Major
+      position: {x: 0.00000029563904, y: -0.11304402, z: -1.1141658}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface20
+      parentName: Muscular_Psoas_Major
+      position: {x: 0.00000029563904, y: -0.11304402, z: -1.1141658}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Psoas_Minor
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.24923891, z: -0.07862179}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface17
+      parentName: Muscular_Psoas_Minor
+      position: {x: -0, y: -0.12674871, z: -1.1497744}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface18
+      parentName: Muscular_Psoas_Minor
+      position: {x: -0, y: -0.12674871, z: -1.1497744}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Quadratus_Femoris
+      parentName: non_separated1
+      position: {x: -0.0000033044814, y: 0.017302196, z: -0.0800284}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface15
+      parentName: Muscular_Quadratus_Femoris
+      position: {x: 0.0000032663345, y: -0.12815532, z: -0.9178377}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface16
+      parentName: Muscular_Quadratus_Femoris
+      position: {x: 0.0000032663345, y: -0.12815532, z: -0.9178377}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Quadratus_Lumborum
+      parentName: non_separated1
+      position: {x: 0.00000067710874, y: 0.2701564, z: -0.08732138}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface9
+      parentName: Muscular_Quadratus_Lumborum
+      position: {x: -0.00000071525574, y: -0.1354483, z: -1.170692}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface10
+      parentName: Muscular_Quadratus_Lumborum
+      position: {x: -0.00000071525574, y: -0.1354483, z: -1.170692}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface11
+      parentName: Muscular_Quadratus_Lumborum
+      position: {x: -0.00000071525574, y: -0.1354483, z: -1.170692}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface12
+      parentName: Muscular_Quadratus_Lumborum
+      position: {x: -0.00000071525574, y: -0.1354483, z: -1.170692}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface13
+      parentName: Muscular_Quadratus_Lumborum
+      position: {x: -0.00000071525574, y: -0.1354483, z: -1.170692}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface14
+      parentName: Muscular_Quadratus_Lumborum
+      position: {x: -0.00000071525574, y: -0.1354483, z: -1.170692}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Quadratus_Plantae
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: -0.8711284, z: -0.028251784}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface7
+      parentName: Muscular_Quadratus_Plantae
+      position: {x: -0, y: -0.0763787, z: -0.02940712}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface8
+      parentName: Muscular_Quadratus_Plantae
+      position: {x: -0, y: -0.0763787, z: -0.02940712}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Rectus_Abdominus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.25890443, z: -1.136398}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Rectus_Capitis_Posterior_Major
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.74857444, z: -0.050955474}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface5
+      parentName: Muscular_Rectus_Capitis_Posterior_Major
+      position: {x: -0, y: -0.0990824, z: -1.64911}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface6
+      parentName: Muscular_Rectus_Capitis_Posterior_Major
+      position: {x: -0, y: -0.0990824, z: -1.64911}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Rectus_Capitis_Posterior_Minor
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.7585632, z: -0.050290454}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface3
+      parentName: Muscular_Rectus_Capitis_Posterior_Minor
+      position: {x: -0, y: -0.09841738, z: -1.6590987}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface4
+      parentName: Muscular_Rectus_Capitis_Posterior_Minor
+      position: {x: -0, y: -0.09841738, z: -1.6590987}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Rectus_Femoris
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: -0.13557842, z: 0.020862557}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface1
+      parentName: Muscular_Rectus_Femoris
+      position: {x: -0, y: -0.027264368, z: -0.76495713}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface2
+      parentName: Muscular_Rectus_Femoris
+      position: {x: -0, y: -0.027264368, z: -0.76495713}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Rhomboideus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.55943334, z: -0.13380769}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface293
+      parentName: Muscular_Rhomboideus
+      position: {x: -0, y: -0.18193462, z: -1.4599688}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface294
+      parentName: Muscular_Rhomboideus
+      position: {x: -0, y: -0.18193462, z: -1.4599688}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Sartorius
+      parentName: non_separated1
+      position: {x: -0.000014290809, y: -0.12978476, z: 0.018585593}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface295
+      parentName: Muscular_Sartorius
+      position: {x: 0.000014252662, y: -0.029541332, z: -0.7707507}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface296
+      parentName: Muscular_Sartorius
+      position: {x: 0.000014252662, y: -0.029541332, z: -0.7707507}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Scalenus_Anterior
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.66347206, z: -0.037452437}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface297
+      parentName: Muscular_Scalenus_Anterior
+      position: {x: -0, y: -0.085579365, z: -1.5640075}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface298
+      parentName: Muscular_Scalenus_Anterior
+      position: {x: -0, y: -0.085579365, z: -1.5640075}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Scalenus_Posterior
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.6786868, z: -0.062084846}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface299
+      parentName: Muscular_Scalenus_Posterior
+      position: {x: -0, y: -0.11021177, z: -1.5792223}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface300
+      parentName: Muscular_Scalenus_Posterior
+      position: {x: -0, y: -0.11021177, z: -1.5792223}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Semimembranosus
+      parentName: non_separated1
+      position: {x: 0.00000021457672, y: -0.19088711, z: -0.038454413}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface301
+      parentName: Muscular_Semimembranosus
+      position: {x: -0.00000025272368, y: -0.086581334, z: -0.70964843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface302
+      parentName: Muscular_Semimembranosus
+      position: {x: -0.00000025272368, y: -0.086581334, z: -0.70964843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Semispinalis_Capitis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.67160565, z: -0.082907125}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface303
+      parentName: Muscular_Semispinalis_Capitis
+      position: {x: -0, y: -0.13103405, z: -1.572141}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface304
+      parentName: Muscular_Semispinalis_Capitis
+      position: {x: -0, y: -0.13103405, z: -1.572141}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface305
+      parentName: Muscular_Semispinalis_Capitis
+      position: {x: -0, y: -0.13103405, z: -1.572141}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface306
+      parentName: Muscular_Semispinalis_Capitis
+      position: {x: -0, y: -0.13103405, z: -1.572141}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface307
+      parentName: Muscular_Semispinalis_Capitis
+      position: {x: -0, y: -0.13103405, z: -1.572141}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface308
+      parentName: Muscular_Semispinalis_Capitis
+      position: {x: -0, y: -0.13103405, z: -1.572141}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface309
+      parentName: Muscular_Semispinalis_Capitis
+      position: {x: -0, y: -0.13103405, z: -1.572141}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface310
+      parentName: Muscular_Semispinalis_Capitis
+      position: {x: -0, y: -0.13103405, z: -1.572141}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Semitendinosus
+      parentName: non_separated1
+      position: {x: -0.0000010442734, y: -0.21057859, z: -0.03876976}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface311
+      parentName: Muscular_Semitendinosus
+      position: {x: 0.0000010061264, y: -0.08689669, z: -0.68995696}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface312
+      parentName: Muscular_Semitendinosus
+      position: {x: 0.0000010061264, y: -0.08689669, z: -0.68995696}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Serratus_Anterior
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.46961075, z: -0.06861882}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface313
+      parentName: Muscular_Serratus_Anterior
+      position: {x: -0, y: -0.11674573, z: -1.3701462}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface314
+      parentName: Muscular_Serratus_Anterior
+      position: {x: -0, y: -0.11674573, z: -1.3701462}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Serratus_Posterior_Inferior
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.35011497, z: -0.113573216}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface315
+      parentName: Muscular_Serratus_Posterior_Inferior
+      position: {x: -0, y: -0.16170013, z: -1.2506504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface316
+      parentName: Muscular_Serratus_Posterior_Inferior
+      position: {x: -0, y: -0.16170013, z: -1.2506504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface317
+      parentName: Muscular_Serratus_Posterior_Inferior
+      position: {x: -0, y: -0.16170013, z: -1.2506504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface318
+      parentName: Muscular_Serratus_Posterior_Inferior
+      position: {x: -0, y: -0.16170013, z: -1.2506504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface319
+      parentName: Muscular_Serratus_Posterior_Inferior
+      position: {x: -0, y: -0.16170013, z: -1.2506504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface320
+      parentName: Muscular_Serratus_Posterior_Inferior
+      position: {x: -0, y: -0.16170013, z: -1.2506504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface321
+      parentName: Muscular_Serratus_Posterior_Inferior
+      position: {x: -0, y: -0.16170013, z: -1.2506504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface322
+      parentName: Muscular_Serratus_Posterior_Inferior
+      position: {x: -0, y: -0.16170013, z: -1.2506504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Serratus_Posterior_Superior
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.61097133, z: -0.12311431}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface323
+      parentName: Muscular_Serratus_Posterior_Superior
+      position: {x: -0, y: -0.17124122, z: -1.5115069}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface324
+      parentName: Muscular_Serratus_Posterior_Superior
+      position: {x: -0, y: -0.17124122, z: -1.5115069}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface325
+      parentName: Muscular_Serratus_Posterior_Superior
+      position: {x: -0, y: -0.17124122, z: -1.5115069}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface326
+      parentName: Muscular_Serratus_Posterior_Superior
+      position: {x: -0, y: -0.17124122, z: -1.5115069}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface327
+      parentName: Muscular_Serratus_Posterior_Superior
+      position: {x: -0, y: -0.17124122, z: -1.5115069}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface328
+      parentName: Muscular_Serratus_Posterior_Superior
+      position: {x: -0, y: -0.17124122, z: -1.5115069}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface329
+      parentName: Muscular_Serratus_Posterior_Superior
+      position: {x: -0, y: -0.17124122, z: -1.5115069}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface330
+      parentName: Muscular_Serratus_Posterior_Superior
+      position: {x: -0, y: -0.17124122, z: -1.5115069}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Soleus
+      parentName: non_separated1
+      position: {x: 0.0000007629394, y: -0.6472583, z: -0.0361078}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface331
+      parentName: Muscular_Soleus
+      position: {x: -0.0000008010864, y: -0.08423472, z: -0.25327718}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface332
+      parentName: Muscular_Soleus
+      position: {x: -0.0000008010864, y: -0.08423472, z: -0.25327718}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Spinalis_Dorsi
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.41370153, z: -0.118008964}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface333
+      parentName: Muscular_Spinalis_Dorsi
+      position: {x: -0, y: -0.16613589, z: -1.314237}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface334
+      parentName: Muscular_Spinalis_Dorsi
+      position: {x: -0, y: -0.16613589, z: -1.314237}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Splenius_Capitis_intermediate
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.70841163, z: -0.06606738}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface335
+      parentName: Muscular_Splenius_Capitis_intermediate
+      position: {x: -0, y: -0.114194304, z: -1.6089472}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface336
+      parentName: Muscular_Splenius_Capitis_intermediate
+      position: {x: -0, y: -0.114194304, z: -1.6089472}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Splenius_Cervicis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.66155595, z: -0.07641525}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface337
+      parentName: Muscular_Splenius_Cervicis
+      position: {x: -0, y: -0.12454218, z: -1.5620914}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface338
+      parentName: Muscular_Splenius_Cervicis
+      position: {x: -0, y: -0.12454218, z: -1.5620914}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Sternocleidomastoideus_superficial
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.6976109, z: -0.020916713}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface339
+      parentName: Muscular_Sternocleidomastoideus_superficial
+      position: {x: -0, y: -0.06904364, z: -1.5981463}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface340
+      parentName: Muscular_Sternocleidomastoideus_superficial
+      position: {x: -0, y: -0.06904364, z: -1.5981463}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Sternohyoideus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.65933937, z: 0.008989115}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface341
+      parentName: Muscular_Sternohyoideus
+      position: {x: -0, y: -0.03913781, z: -1.5598749}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface342
+      parentName: Muscular_Sternohyoideus
+      position: {x: -0, y: -0.03913781, z: -1.5598749}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Sternothyroideus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.645103, z: -0.0060597253}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface343
+      parentName: Muscular_Sternothyroideus
+      position: {x: -0, y: -0.05418665, z: -1.5456384}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface344
+      parentName: Muscular_Sternothyroideus
+      position: {x: -0, y: -0.05418665, z: -1.5456384}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Stylohyoideus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.7442502, z: 0.012427079}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface345
+      parentName: Muscular_Stylohyoideus
+      position: {x: -0, y: -0.035699848, z: -1.6447858}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface346
+      parentName: Muscular_Stylohyoideus
+      position: {x: -0, y: -0.035699848, z: -1.6447858}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Subscapularis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5220634, z: -0.117173895}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface347
+      parentName: Muscular_Subscapularis
+      position: {x: -0, y: -0.16530082, z: -1.4225988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface348
+      parentName: Muscular_Subscapularis
+      position: {x: -0, y: -0.16530082, z: -1.4225988}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Supraspinatis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.58256423, z: -0.12508333}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface349
+      parentName: Muscular_Supraspinatis
+      position: {x: -0, y: -0.17321025, z: -1.4830996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface350
+      parentName: Muscular_Supraspinatis
+      position: {x: -0, y: -0.17321025, z: -1.4830996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Temporalis
+      parentName: non_separated1
+      position: {x: -0.000000028610229, y: 0.8330691, z: 0.008638852}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface351
+      parentName: Muscular_Temporalis
+      position: {x: -0.000000009536743, y: -0.039488073, z: -1.7336046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface352
+      parentName: Muscular_Temporalis
+      position: {x: -0.000000009536743, y: -0.039488073, z: -1.7336046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Tensor_Fascia_Latae
+      parentName: non_separated1
+      position: {x: 0.0000004673004, y: -0.120547414, z: -0.034675244}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface353
+      parentName: Muscular_Tensor_Fascia_Latae
+      position: {x: -0.00000050544736, y: -0.08280217, z: -0.7799881}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface354
+      parentName: Muscular_Tensor_Fascia_Latae
+      position: {x: -0.00000050544736, y: -0.08280217, z: -0.7799881}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Teres_Major
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5127081, z: -0.11778355}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface355
+      parentName: Muscular_Teres_Major
+      position: {x: -0, y: -0.16591047, z: -1.4132437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface356
+      parentName: Muscular_Teres_Major
+      position: {x: -0, y: -0.16591047, z: -1.4132437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Teres_Minor
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5267313, z: -0.13512298}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface357
+      parentName: Muscular_Teres_Minor
+      position: {x: -0, y: -0.1832499, z: -1.4272668}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface358
+      parentName: Muscular_Teres_Minor
+      position: {x: -0, y: -0.1832499, z: -1.4272668}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Thyrohyoideus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.7047808, z: 0.011613202}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface359
+      parentName: Muscular_Thyrohyoideus
+      position: {x: -0, y: -0.036513723, z: -1.6053163}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface360
+      parentName: Muscular_Thyrohyoideus
+      position: {x: -0, y: -0.036513723, z: -1.6053163}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Tibialis_Anterior
+      parentName: non_separated1
+      position: {x: -0.000000042915342, y: -0.63979334, z: 0.021067806}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface361
+      parentName: Muscular_Tibialis_Anterior
+      position: {x: 0.0000000047683715, y: -0.027059121, z: -0.26074216}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface362
+      parentName: Muscular_Tibialis_Anterior
+      position: {x: 0.0000000047683715, y: -0.027059121, z: -0.26074216}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Tibialis_Posterior
+      parentName: non_separated1
+      position: {x: -0.000000042915342, y: -0.6586445, z: -0.0075628865}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface363
+      parentName: Muscular_Tibialis_Posterior
+      position: {x: 0.0000000047683715, y: -0.05568981, z: -0.24189101}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface364
+      parentName: Muscular_Tibialis_Posterior
+      position: {x: 0.0000000047683715, y: -0.05568981, z: -0.24189101}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Transverse_Abdominus
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.17430253, z: -1.1713319}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Transversospinales
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.4200269, z: -0.09927928}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface365
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface366
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface367
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface368
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface369
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface370
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface371
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface372
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface373
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface374
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface375
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface376
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface377
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface378
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface379
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface380
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface381
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface382
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface383
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface384
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface385
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface386
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface387
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface388
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface389
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface390
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface391
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface392
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface393
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface394
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface395
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface396
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface397
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface398
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface399
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface400
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface401
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface402
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface403
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface404
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface405
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface406
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface407
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface408
+      parentName: Muscular_Transversospinales
+      position: {x: -0, y: -0.1474062, z: -1.3205624}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Trapezius
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.5886861, z: -0.107405305}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface409
+      parentName: Muscular_Trapezius
+      position: {x: -0, y: -0.15553223, z: -1.4892216}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface410
+      parentName: Muscular_Trapezius
+      position: {x: -0, y: -0.15553223, z: -1.4892216}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Triceps_Brachii
+      parentName: non_separated1
+      position: {x: -0.000000019073486, y: 0.55996704, z: -0.12204456}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface411
+      parentName: Muscular_Triceps_Brachii
+      position: {x: -0.000000019073486, y: -0.17017148, z: -1.4605026}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface412
+      parentName: Muscular_Triceps_Brachii
+      position: {x: -0.000000019073486, y: -0.17017148, z: -1.4605026}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface413
+      parentName: Muscular_Triceps_Brachii
+      position: {x: -0.000000019073486, y: -0.17017148, z: -1.4605026}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface414
+      parentName: Muscular_Triceps_Brachii
+      position: {x: -0.000000019073486, y: -0.17017148, z: -1.4605026}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface415
+      parentName: Muscular_Triceps_Brachii
+      position: {x: -0.000000019073486, y: -0.17017148, z: -1.4605026}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface416
+      parentName: Muscular_Triceps_Brachii
+      position: {x: -0.000000019073486, y: -0.17017148, z: -1.4605026}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface417
+      parentName: Muscular_Triceps_Brachii
+      position: {x: -0.000000019073486, y: -0.17017148, z: -1.4605026}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface418
+      parentName: Muscular_Triceps_Brachii
+      position: {x: -0.000000019073486, y: -0.17017148, z: -1.4605026}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Vastus_Lateralis
+      parentName: non_separated1
+      position: {x: -0.0000057315824, y: -0.17054611, z: -0.0058532367}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface419
+      parentName: Muscular_Vastus_Lateralis
+      position: {x: 0.0000056934355, y: -0.053980164, z: -0.72998935}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface420
+      parentName: Muscular_Vastus_Lateralis
+      position: {x: 0.0000056934355, y: -0.053980164, z: -0.72998935}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Vastus_Medialis
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: -0.16642281, z: 0.01129717}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface421
+      parentName: Muscular_Vastus_Medialis
+      position: {x: -0, y: -0.03682976, z: -0.7341127}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface422
+      parentName: Muscular_Vastus_Medialis
+      position: {x: -0, y: -0.03682976, z: -0.7341127}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Zygomaticus_Major
+      parentName: non_separated1
+      position: {x: -0.000000038146972, y: 0.7601915, z: 0.063983105}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface423
+      parentName: Muscular_Zygomaticus_Major
+      position: {x: -0, y: 0.01585618, z: -1.6607269}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface424
+      parentName: Muscular_Zygomaticus_Major
+      position: {x: -0, y: 0.01585618, z: -1.6607269}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Zygomaticus_Minor
+      parentName: non_separated1
+      position: {x: -0.00000004053116, y: 0.76869434, z: 0.0710801}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface425
+      parentName: Muscular_Zygomaticus_Minor
+      position: {x: 0.0000000023841857, y: 0.022953177, z: -1.6692299}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface426
+      parentName: Muscular_Zygomaticus_Minor
+      position: {x: 0.0000000023841857, y: 0.022953177, z: -1.6692299}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_Reference
+      parentName: HumanAnatomy_Muscles(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_Hips1
+      parentName: OneSkeleton_Reference
+      position: {x: -0, y: 1.0298603, z: -0.090532064}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftUpLeg
+      parentName: OneSkeleton_Hips1
+      position: {x: -0.08705849, y: -0.047304258, z: -0.014263936}
+      rotation: {x: 1, y: -0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftLeg
+      parentName: OneSkeleton_LeftUpLeg
+      position: {x: -0.0369167, y: 0.444929, z: -0.10280628}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftFoot
+      parentName: OneSkeleton_LeftLeg
+      position: {x: 0.0034950136, y: 0.4711068, z: 0.08363221}
+      rotation: {x: -0, y: 8.673617e-18, z: 5.77779e-34, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftToeBase
+      parentName: OneSkeleton_LeftFoot
+      position: {x: -0.029176774, y: 0.0503396, z: -0.16892076}
+      rotation: {x: -1.2248001e-22, y: -0.00004189127, z: -1.461027e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightUpLeg
+      parentName: OneSkeleton_Hips1
+      position: {x: 0.087058455, y: -0.04730387, z: -0.014263949}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightLeg
+      parentName: OneSkeleton_RightUpLeg
+      position: {x: 0.036917124, y: -0.44492918, z: 0.10280628}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightFoot
+      parentName: OneSkeleton_RightLeg
+      position: {x: -0.0034949153, y: -0.47110698, z: -0.08363218}
+      rotation: {x: 0, y: 6.938894e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightToeBase
+      parentName: OneSkeleton_RightFoot
+      position: {x: 0.029176304, y: -0.05033954, z: 0.16892079}
+      rotation: {x: 0, y: -0.00004189127, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_Spine
+      parentName: OneSkeleton_Hips1
+      position: {x: -0, y: 0.13590766, z: 0.0077314293}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_Spine1
+      parentName: OneSkeleton_Spine
+      position: {x: -0, y: 0.22052005, z: -0.02066129}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_Spine2
+      parentName: OneSkeleton_Spine1
+      position: {x: -0, y: 0.14036788, z: 0.0040099975}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftShoulder
+      parentName: OneSkeleton_Spine2
+      position: {x: -0.089715004, y: -0.014815876, z: -0.018370071}
+      rotation: {x: 1, y: -0, z: 0, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftArm
+      parentName: OneSkeleton_LeftShoulder
+      position: {x: -0.092911996, y: 0.012869999, z: 0.013696}
+      rotation: {x: 0.000000007450581, y: -1.5073655e-13, z: -0.000020231517, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftForeArm
+      parentName: OneSkeleton_LeftArm
+      position: {x: -0.26556167, y: 0.041549254, z: 0.038351}
+      rotation: {x: 1.83671e-39, y: 2.4776462e-20, z: 0.00022254667, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHand
+      parentName: OneSkeleton_LeftForeArm
+      position: {x: -0.22350399, y: 0.022300439, z: -0.1053909}
+      rotation: {x: -0.013293645, y: -0.015865551, z: -0.0011124947, w: 0.9997851}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandIndex1
+      parentName: OneSkeleton_LeftHand
+      position: {x: -0.07766996, y: 0.0053771064, z: -0.058780573}
+      rotation: {x: 0.0000000074505393, y: 2.4871438e-11, z: 0.003338194, w: 0.99999446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandIndex2
+      parentName: OneSkeleton_LeftHandIndex1
+      position: {x: -0.025875019, y: 0.002936948, z: -0.015762923}
+      rotation: {x: -0.000116522155, y: -0.01745258, z: -0.0066753337, w: 0.9998254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandIndex3
+      parentName: OneSkeleton_LeftHandIndex2
+      position: {x: -0.030516353, y: 0.0047873403, z: -0.019104889}
+      rotation: {x: -0.0009763338, y: 0.173648, z: 0.0092875175, w: 0.9847635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandIndex4
+      parentName: OneSkeleton_LeftHandIndex3
+      position: {x: -0.015687449, y: 0.0028182173, z: -0.023072315}
+      rotation: {x: -0.003081479, y: -0.7071033, z: -0.008527815, w: 0.7070521}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandMiddle1
+      parentName: OneSkeleton_LeftHand
+      position: {x: -0.09766035, y: 0.0066900784, z: -0.041507177}
+      rotation: {x: 0.0000000074505393, y: 2.4871438e-11, z: 0.003338194, w: 0.99999446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandMiddle2
+      parentName: OneSkeleton_LeftHandMiddle1
+      position: {x: -0.040468384, y: 0.006843931, z: -0.016084488}
+      rotation: {x: -0.000116522155, y: -0.01745258, z: -0.0066753337, w: 0.9998254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandMiddle3
+      parentName: OneSkeleton_LeftHandMiddle2
+      position: {x: -0.029359948, y: 0.0037345444, z: -0.010521034}
+      rotation: {x: -0.0009763338, y: 0.173648, z: 0.0092875175, w: 0.9847635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandMiddle4
+      parentName: OneSkeleton_LeftHandMiddle3
+      position: {x: -0.020200584, y: 0.0052117924, z: -0.017469835}
+      rotation: {x: -0.003081479, y: -0.7071033, z: -0.008527815, w: 0.7070521}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandPinky1
+      parentName: OneSkeleton_LeftHand
+      position: {x: -0.09226484, y: 0.021669365, z: 0.003733005}
+      rotation: {x: 0.0000000074505393, y: 2.4871438e-11, z: 0.003338194, w: 0.99999446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandPinky2
+      parentName: OneSkeleton_LeftHandPinky1
+      position: {x: -0.024424385, y: 0.007049504, z: -0.002558041}
+      rotation: {x: -0.00011671119, y: -0.01745258, z: -0.0066645043, w: 0.9998255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandPinky3
+      parentName: OneSkeleton_LeftHandPinky2
+      position: {x: -0.02688637, y: 0.009971699, z: -0.0033197578}
+      rotation: {x: -0.000974453, y: 0.17364806, z: 0.009179765, w: 0.9847645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandPinky4
+      parentName: OneSkeleton_LeftHandPinky3
+      position: {x: -0.021430828, y: 0.007416917, z: -0.011253352}
+      rotation: {x: -0.00308914, y: -0.70710444, z: -0.008089046, w: 0.7070561}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandRing1
+      parentName: OneSkeleton_LeftHand
+      position: {x: -0.10262696, y: 0.011397625, z: -0.017932598}
+      rotation: {x: 0.0000000074505393, y: 2.4871438e-11, z: 0.003338194, w: 0.99999446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandRing2
+      parentName: OneSkeleton_LeftHandRing1
+      position: {x: -0.04205935, y: 0.011566168, z: -0.009021884}
+      rotation: {x: -0.000116522155, y: -0.01745258, z: -0.0066753337, w: 0.9998254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandRing3
+      parentName: OneSkeleton_LeftHandRing2
+      position: {x: -0.021778239, y: 0.004332229, z: -0.00431807}
+      rotation: {x: -0.0009763338, y: 0.173648, z: 0.0092875175, w: 0.9847635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandRing4
+      parentName: OneSkeleton_LeftHandRing3
+      position: {x: -0.022578387, y: 0.0058457246, z: -0.015996395}
+      rotation: {x: -0.003081479, y: -0.7071033, z: -0.008527815, w: 0.7070521}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandThumb1
+      parentName: OneSkeleton_LeftHand
+      position: {x: -0.017848575, y: 0.022315325, z: -0.056095336}
+      rotation: {x: 0.0000000074505393, y: 2.4871438e-11, z: 0.003338194, w: 0.99999446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandThumb2
+      parentName: OneSkeleton_LeftHandThumb1
+      position: {x: -0.016763665, y: 0.0047684438, z: -0.016848896}
+      rotation: {x: 4.86175e-17, y: 6.614454e-18, z: -0.0066763507, w: 0.9999777}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandThumb3
+      parentName: OneSkeleton_LeftHandThumb2
+      position: {x: -0.018755857, y: 0.004295869, z: -0.015246156}
+      rotation: {x: 0.0000000074502555, y: 6.960008e-11, z: 0.009341571, w: 0.99995637}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_LeftHandThumb4
+      parentName: OneSkeleton_LeftHandThumb3
+      position: {x: -0.026722755, y: 0.0011555918, z: -0.019773351}
+      rotation: {x: 0.000000012904227, y: -1.1991702e-10, z: -0.009292447, w: 0.99995685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_Neck
+      parentName: OneSkeleton_Spine2
+      position: {x: -0, y: 0.08134527, z: 0.030281391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_Head
+      parentName: OneSkeleton_Neck
+      position: {x: -0.00020130246, y: 0.10721994, z: 0.0066667404}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_Head_Top
+      parentName: OneSkeleton_Head
+      position: {x: -0.12688302, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_r_eye
+      parentName: OneSkeleton_Head
+      position: {x: 0.0033303548, y: 0.03591818, z: 0.09388493}
+      rotation: {x: 0.6403312, y: -0.3115398, z: -0.631326, w: 0.3071585}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_r_eye1
+      parentName: OneSkeleton_Head
+      position: {x: 0.003331096, y: -0.0359182, z: 0.09388489}
+      rotation: {x: 0.631326, y: -0.3071585, z: 0.6403312, w: -0.3115398}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightShoulder
+      parentName: OneSkeleton_Spine2
+      position: {x: 0.08971504, y: -0.014810979, z: -0.018370174}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightArm
+      parentName: OneSkeleton_RightShoulder
+      position: {x: 0.09291151, y: -0.012878334, z: -0.013695415}
+      rotation: {x: 0, y: 0, z: -0.000020231517, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightForeArm
+      parentName: OneSkeleton_RightArm
+      position: {x: 0.26556224, y: -0.041550107, z: -0.038351566}
+      rotation: {x: 0, y: 0, z: 0.00022254667, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHand
+      parentName: OneSkeleton_RightForeArm
+      position: {x: 0.22350396, y: -0.022295678, z: 0.105391}
+      rotation: {x: -0.013293645, y: -0.015865551, z: -0.0011124947, w: 0.9997851}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandIndex1
+      parentName: OneSkeleton_RightHand
+      position: {x: 0.07766946, y: -0.005375428, z: 0.058780618}
+      rotation: {x: 1.7347139e-18, y: 5.7908435e-21, z: 0.003338194, w: 0.99999446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandIndex2
+      parentName: OneSkeleton_RightHandIndex1
+      position: {x: 0.025875485, y: -0.0029429097, z: 0.015762713}
+      rotation: {x: -0.000116522155, y: -0.01745258, z: -0.0066753337, w: 0.9998254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandIndex3
+      parentName: OneSkeleton_RightHandIndex2
+      position: {x: 0.030516688, y: -0.004779852, z: 0.01910511}
+      rotation: {x: -0.0009763338, y: 0.173648, z: 0.0092875175, w: 0.9847635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandIndex4
+      parentName: OneSkeleton_RightHandIndex3
+      position: {x: 0.015687225, y: -0.0028252325, z: 0.023072}
+      rotation: {x: -0.003081479, y: -0.7071033, z: -0.008527815, w: 0.7070521}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandMiddle1
+      parentName: OneSkeleton_RightHand
+      position: {x: 0.097660184, y: -0.006688159, z: 0.041507173}
+      rotation: {x: 1.7347139e-18, y: 5.7908435e-21, z: 0.003338194, w: 0.99999446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandMiddle2
+      parentName: OneSkeleton_RightHandMiddle1
+      position: {x: 0.04046887, y: -0.006845554, z: 0.016084462}
+      rotation: {x: -0.000116522155, y: -0.01745258, z: -0.0066753337, w: 0.9998254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandMiddle3
+      parentName: OneSkeleton_RightHandMiddle2
+      position: {x: 0.029359536, y: -0.0037310757, z: 0.01052117}
+      rotation: {x: -0.0009763338, y: 0.173648, z: 0.0092875175, w: 0.9847635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandMiddle4
+      parentName: OneSkeleton_RightHandMiddle3
+      position: {x: 0.020200899, y: -0.0052153454, z: 0.017469779}
+      rotation: {x: -0.003081479, y: -0.7071033, z: -0.008527815, w: 0.7070521}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandPinky1
+      parentName: OneSkeleton_RightHand
+      position: {x: 0.09226427, y: -0.021670397, z: -0.003733075}
+      rotation: {x: 1.7347139e-18, y: 5.7908435e-21, z: 0.003338194, w: 0.99999446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandPinky2
+      parentName: OneSkeleton_RightHandPinky1
+      position: {x: 0.024425235, y: -0.0070468006, z: 0.0025581154}
+      rotation: {x: -0.00011671119, y: -0.01745258, z: -0.0066645043, w: 0.9998255}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandPinky3
+      parentName: OneSkeleton_RightHandPinky2
+      position: {x: 0.026886277, y: -0.009971642, z: 0.0033197817}
+      rotation: {x: -0.000974453, y: 0.17364806, z: 0.009179765, w: 0.9847645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandPinky4
+      parentName: OneSkeleton_RightHandPinky3
+      position: {x: 0.021430852, y: -0.0074213594, z: 0.011253203}
+      rotation: {x: -0.00308914, y: -0.70710444, z: -0.008089046, w: 0.7070561}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandRing1
+      parentName: OneSkeleton_RightHand
+      position: {x: 0.102626525, y: -0.01140245, z: 0.017932488}
+      rotation: {x: 1.7347139e-18, y: 5.7908435e-21, z: 0.003338194, w: 0.99999446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandRing2
+      parentName: OneSkeleton_RightHandRing1
+      position: {x: 0.042059362, y: -0.01156649, z: 0.009021822}
+      rotation: {x: -0.000116522155, y: -0.01745258, z: -0.0066753337, w: 0.9998254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandRing3
+      parentName: OneSkeleton_RightHandRing2
+      position: {x: 0.0217785, y: -0.004325343, z: 0.004318288}
+      rotation: {x: -0.0009763338, y: 0.173648, z: 0.0092875175, w: 0.9847635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandRing4
+      parentName: OneSkeleton_RightHandRing3
+      position: {x: 0.02257836, y: -0.005846048, z: 0.015996393}
+      rotation: {x: -0.003081479, y: -0.7071033, z: -0.008527815, w: 0.7070521}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandThumb1
+      parentName: OneSkeleton_RightHand
+      position: {x: 0.01784819, y: -0.022313477, z: 0.05609538}
+      rotation: {x: 1.7347139e-18, y: 5.7908435e-21, z: 0.003338194, w: 0.99999446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandThumb2
+      parentName: OneSkeleton_RightHandThumb1
+      position: {x: 0.016764106, y: -0.0047701076, z: 0.016848853}
+      rotation: {x: -1.6883583e-18, y: 6.9503206e-18, z: -0.0066763507, w: 0.9999777}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandThumb3
+      parentName: OneSkeleton_RightHandThumb2
+      position: {x: 0.018755944, y: -0.0043002963, z: 0.015245981}
+      rotation: {x: -3.4044754e-18, y: -6.971001e-18, z: 0.009341571, w: 0.99995637}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OneSkeleton_RightHandThumb4
+      parentName: OneSkeleton_RightHandThumb3
+      position: {x: 0.026652873, y: -0.004899685, z: 0.019773586}
+      rotation: {x: -1.7346486e-18, y: 1.6119826e-20, z: -0.009292447, w: 0.99995685}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -17,13 +17,13 @@ public class TextureMuscleActivator : MuscleActivator
     bool isBenting = false, isLyingSupine = false, isLyingProne = false, isStanding = true, isActivatedR = false, isActivatedL = false, isActivated = false;
     private void Awake()
     {
-        b = GameObject.Find("Skeleton_Reference1").GetComponent<Body>();
+        b = GameObject.Find("OneSkeleton_Reference").GetComponent<Body>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        thr = GameObject.Find("Skeleton_Reference1").GetComponent<Thresholds>();
+        thr = GameObject.Find("OneSkeleton_Reference").GetComponent<Thresholds>();
         jointActions[b.bodyparts["LShoulder"]] = HandleShoulder;
         jointActions[b.bodyparts["RShoulder"]] = HandleShoulder;
         jointActions[b.bodyparts["LArm"]] = HandleArm;
@@ -50,27 +50,25 @@ public class TextureMuscleActivator : MuscleActivator
         GameObject muscle, muscle2, muscle3, muscle11, muscle12, muscle13;
         bool isLeft = false; 
         float distance, distancel;
+        muscle3 = GameObject.Find("Back");
+        muscle11 = GameObject.Find("ShouldersM");
+        muscle12 = GameObject.Find("ChestM");
+        muscle13 = GameObject.Find("BackM");
 
-        muscle11 = GameObject.Find("Shoulders");
-        muscle12 = GameObject.Find("Chest");
-        muscle13 = GameObject.Find("Back");
-
-        if (joint.name == "Skeleton_LeftArm")
+        if (joint.name == "OneSkeleton_LeftArm")
         {
             jname = "LArm";
             jname2 = "LForeArm";
             isLeft = true;
-            muscle = GameObject.Find("LShoulderSphere");
-            muscle2 = GameObject.Find("LChestSphere");
-            muscle3 = GameObject.Find("LBackSphere");
+            muscle = GameObject.Find("LShoulder");
+            muscle2 = GameObject.Find("LChest");
             isActivated = isActivatedL;
         }
         else {
             jname = "RArm";
             jname2 = "RForeArm";
-            muscle = GameObject.Find("RShoulderSphere");
-            muscle2 = GameObject.Find("RChestSphere");
-            muscle3 = GameObject.Find("RBackSphere");
+            muscle = GameObject.Find("RShoulder");
+            muscle2 = GameObject.Find("RChest");
             isActivated = isActivatedR;
         }
 
@@ -161,7 +159,7 @@ public class TextureMuscleActivator : MuscleActivator
         float distance, distancel;
         GameObject muscle, muscle11;
         bool isLeft = false;
-        if (joint.name == "Skeleton_LeftForeArm") {
+        if (joint.name == "OneSkeleton_LeftForeArm") {
             jname = "LForeArm";
             jname2 = "LArm";
             isLeft = true;
@@ -177,9 +175,9 @@ public class TextureMuscleActivator : MuscleActivator
         distance = thresholds[1] - rotation.z;
         if (thresholds[1] > thresholds[0])
         {
-            muscle11= GameObject.Find("Triceps");
-            if (isLeft) muscle = GameObject.Find("LTricepSphere");
-            else muscle = GameObject.Find("RTricepSphere");
+            muscle11= GameObject.Find("TricepsM");
+            if (isLeft) muscle = GameObject.Find("LTricep");
+            else muscle = GameObject.Find("RTricep");
             if (hiprotation.z >= thr.thresholds["StandingHip"][0] && hiprotation.z <= thr.thresholds["StandingHip"][1])
             {
 
@@ -223,9 +221,9 @@ public class TextureMuscleActivator : MuscleActivator
         }
         else
         {
-            muscle11 = GameObject.Find("Biceps");
-            if (isLeft) muscle = GameObject.Find("LBicepSphere");
-            else muscle = GameObject.Find("RBicepSphere");
+            muscle11 = GameObject.Find("BicepsM");
+            if (isLeft) muscle = GameObject.Find("LBicep");
+            else muscle = GameObject.Find("RBicep");
 
             if (distance > thresholds[1] - thresholds[0] && distance <= 0 && rotation2.x <= thr.thresholds["Shoulder1"][0])
             {
@@ -264,7 +262,7 @@ public class TextureMuscleActivator : MuscleActivator
         GameObject muscle, muscle11 ;
         bool isLeft = false;
 
-        if (joint.name == "Skeleton_LeftLeg")
+        if (joint.name == "OneSkeleton_LeftLeg")
         {
             jname = "LLeg";
             isLeft = true;
@@ -277,9 +275,9 @@ public class TextureMuscleActivator : MuscleActivator
         distance = (thresholds[1] - rotation.z + 360) % 360;
         d1 = (thr.thresholds["Quad"][1] - thr.thresholds["Quad"][0] + 360) % 360;
 
-        muscle11= GameObject.Find("Quads");
-        if (isLeft) muscle = GameObject.Find("LQuadSphere");
-        else muscle = GameObject.Find("RQuadSphere");
+        muscle11= GameObject.Find("QuadsM");
+        if (isLeft) muscle = GameObject.Find("LQuad");
+        else muscle = GameObject.Find("RQuad");
 
         if (distance <= d1 && thresholds[1] == thr.thresholds["Quad"][1])
         {
@@ -313,9 +311,9 @@ public class TextureMuscleActivator : MuscleActivator
 
         else
         {
-            muscle11 = GameObject.Find("Hamstrings");
-            if (isLeft) muscle = GameObject.Find("LHamstringSphere");
-            else muscle = GameObject.Find("RHamstringSphere");
+            muscle11 = GameObject.Find("HamstringsM");
+            if (isLeft) muscle = GameObject.Find("LHamstring");
+            else muscle = GameObject.Find("RHamstring");
 
             distance = thresholds[1] - rotation.z;
             if (distance >= thresholds[1] - thresholds[0] && distance <= 0)
@@ -348,7 +346,7 @@ public class TextureMuscleActivator : MuscleActivator
         float distance, distancel;
         GameObject muscle, muscle11;
         bool isLeft = false;
-        if (joint.name == "Skeleton_LeftFoot")
+        if (joint.name == "OneSkeleton_LeftFoot")
         {
             jname = "LFoot";
             isLeft = true;
@@ -360,9 +358,9 @@ public class TextureMuscleActivator : MuscleActivator
 
         distance = thresholds[1] - rotation.z;
 
-        muscle11= GameObject.Find("Calves");
-        if (isLeft) muscle = GameObject.Find("LCalfSphere");
-        else muscle = GameObject.Find("RCalfSphere");
+        muscle11= GameObject.Find("CalvesM");
+        if (isLeft) muscle = GameObject.Find("LCalf");
+        else muscle = GameObject.Find("RCalf");
 
         if (distance > thresholds[1] - thresholds[0])
         {
@@ -393,8 +391,8 @@ public class TextureMuscleActivator : MuscleActivator
 
         if (thresholds[1] > thresholds[0])
         {
-            muscle11 = GameObject.Find("Dorsals");
-            muscle = GameObject.Find("DorsalSphere");
+            muscle11 = GameObject.Find("DorsalsM");
+            muscle = GameObject.Find("Dorsals");
             if (distance <= thresholds[1] - thresholds[0] && rotation.z <= thr.thresholds["Arching"][1])
             {
                 if (hiprotation.z <= thr.thresholds["LyingProne"][1] && hiprotation.z >= thr.thresholds["LyingProne"][0])
@@ -429,8 +427,8 @@ public class TextureMuscleActivator : MuscleActivator
         }
         else
         {
-            muscle = GameObject.Find("AbsSphere");
-            muscle11 = GameObject.Find("Abs");
+            muscle = GameObject.Find("Abs");
+            muscle11 = GameObject.Find("AbsM");
             if (distance >= thresholds[1] - thresholds[0] && rotation.z >= thr.thresholds["Abs"][1])
             {
                 if (hiprotation.z <= thr.thresholds["LyingSupine"][1] && hiprotation.z >= thr.thresholds["LyingSupine"][0])
@@ -532,8 +530,36 @@ public class TextureMuscleActivator : MuscleActivator
             // You might need to update the material to apply the changes
             m.globalIlluminationFlags = MaterialGlobalIlluminationFlags.RealtimeEmissive;
         }
-
-    }
+        if (transform.childCount != 0)
+        {
+            foreach(SkinnedMeshRenderer renderer in muscle.transform.GetComponentsInChildren<SkinnedMeshRenderer>())
+            {
+                Material m1 = renderer.material;
+                if (intensity > 0)
+                {
+                    Color darkerYellow = DarkenColor(Color.yellow, 0.5f);
+                    Color lerpedColor = Color.Lerp(darkerYellow, Color.red, intensity);
+                    //Debug.Log("Activated " + muscle.name + " with intensity " + intensity);
+                    m1.color = lerpedColor;
+                    m1.SetColor("_EmissionColor", lerpedColor);
+                    // If your material is using emission, you may need to enable it explicitly
+                    m1.EnableKeyword("_EMISSION");
+                    // You might need to update the material to apply the changes
+                    m1.globalIlluminationFlags = MaterialGlobalIlluminationFlags.RealtimeEmissive;
+                }
+                else if (intensity == 0)
+                {
+                    m1.color = Color.white;
+                    m1.SetColor("_EmissionColor", Color.black);
+                    // If your material is using emission, you may need to enable it explicitly
+                    m1.EnableKeyword("_EMISSION");
+                    // You might need to update the material to apply the changes
+                    m1.globalIlluminationFlags = MaterialGlobalIlluminationFlags.RealtimeEmissive;
+                }
+            }
+        }
+        
+    }   
 
 
 }

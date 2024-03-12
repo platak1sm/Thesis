@@ -9,10 +9,10 @@ public class Back : Muscle
     void Start()
     {
         print("mphka back");
-        body = GameObject.Find("Skeleton_Reference1").GetComponent<Body>();
-        thr = GameObject.Find("Skeleton_Reference1").GetComponent<Thresholds>();
+        body = GameObject.Find("OneSkeleton_Reference").GetComponent<Body>();
+        thr = GameObject.Find("OneSkeleton_Reference").GetComponent<Thresholds>();
         name = "Back";
-        tma = GameObject.Find("Skeleton_Reference1").GetComponent<TextureMuscleActivator>();
+        tma = GameObject.Find("OneSkeleton_Reference").GetComponent<TextureMuscleActivator>();
         jointsToEvaluate = new GameObject[2];
         thresholds = new float[2, 2];
         jointsToEvaluate[0] = body.bodyparts["RArm"];
