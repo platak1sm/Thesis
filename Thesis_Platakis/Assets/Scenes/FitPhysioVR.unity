@@ -1533,13 +1533,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4866747267275111149, guid: a1570a62e31994e6a83664a7fddb4ed0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4900076544269760228, guid: a1570a62e31994e6a83664a7fddb4ed0, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4900076544269760228, guid: a1570a62e31994e6a83664a7fddb4ed0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.546071
+      value: 10.356
       objectReference: {fileID: 0}
     - target: {fileID: 4900076544269760228, guid: a1570a62e31994e6a83664a7fddb4ed0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1583,7 +1587,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5713732069291224158, guid: a1570a62e31994e6a83664a7fddb4ed0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7584399763309409617, guid: a1570a62e31994e6a83664a7fddb4ed0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1570a62e31994e6a83664a7fddb4ed0, type: 3}
@@ -3071,6 +3079,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 524626165156012503, guid: 0e5bfbc000f4142d0aa993240ab9920f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 08e7361c3449743c5bc1f8288d4805f7, type: 2}
+    - target: {fileID: 3022597452094495355, guid: 0e5bfbc000f4142d0aa993240ab9920f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3022597452094495355, guid: 0e5bfbc000f4142d0aa993240ab9920f, type: 3}
       propertyPath: solver.leftArm.target
       value: 
