@@ -3083,9 +3083,17 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 08e7361c3449743c5bc1f8288d4805f7, type: 2}
-    - target: {fileID: 3022597452094495355, guid: 0e5bfbc000f4142d0aa993240ab9920f, type: 3}
+    - target: {fileID: 3022597452094495354, guid: 0e5bfbc000f4142d0aa993240ab9920f, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022597452094495354, guid: 0e5bfbc000f4142d0aa993240ab9920f, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022597452094495355, guid: 0e5bfbc000f4142d0aa993240ab9920f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3022597452094495355, guid: 0e5bfbc000f4142d0aa993240ab9920f, type: 3}
       propertyPath: solver.leftArm.target
@@ -3109,7 +3117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9156451957109030912, guid: 0e5bfbc000f4142d0aa993240ab9920f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.0216727
+      value: 3.021673
       objectReference: {fileID: 0}
     - target: {fileID: 9156451957109030912, guid: 0e5bfbc000f4142d0aa993240ab9920f, type: 3}
       propertyPath: m_LocalPosition.y
