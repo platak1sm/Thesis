@@ -21,7 +21,7 @@ public class Thresholds : MonoBehaviour
         AddMovement(7f, 37f, "Calf");           //Foot Joints 40f, 20f
         AddMovement(1f, 45f, "Abs");          //Spine Joint 360f, 290f
         AddMovement(359f, 320f, "Dorsal");         //Spine Joint15f, 45f
-        AddMovement(1f, 45f, "Benting");      //Spine Joint 230f, 320f
+        AddMovement(10f, 45f, "Benting");      //Spine Joint 230f, 320f
         AddMovement(359f, 320f, "Arching");        //Spine Joint 0f, 11f
         AddMovement(0f, 11f, "StandingSpine"); //Spine Joint 30f, 350f
         AddMovement(348f, 10f, "StandingHip");  //Hip Joint 245f, 265f <,>

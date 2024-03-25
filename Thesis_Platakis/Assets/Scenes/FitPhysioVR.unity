@@ -3093,7 +3093,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3022597452094495355, guid: 0e5bfbc000f4142d0aa993240ab9920f, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3022597452094495355, guid: 0e5bfbc000f4142d0aa993240ab9920f, type: 3}
       propertyPath: solver.leftArm.target
