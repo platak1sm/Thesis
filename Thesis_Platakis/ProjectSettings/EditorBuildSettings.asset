@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FitPhysioAR.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2cf8e24cc093d9d4ebe8e532499f258a, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c573524e0f4ffbf48a4d5764ef3be249, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ed6e971b6ac1c4c419e5862da4785e68, type: 2}
