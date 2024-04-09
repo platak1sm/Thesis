@@ -26,7 +26,7 @@ public class Thresholds : MonoBehaviour
         AddMovement(0f, 11f, "StandingSpine"); //Spine Joint 30f, 350f
         AddMovement(348f, 10f, "StandingHip");  //Hip Joint 245f, 265f <,>
         AddMovement(270f, 300f, "LyingSupine");  //Hip Joint anaskela 340f, 360f
-        AddMovement(75f, 89f, "LyingProne");     //Hip Joint broumita    150f, 190f                             
+        AddMovement(75f, 89f, "LyingProne");     //Hip Joint broumita 150f, 190f                             
     }
 
     // Start is called before the first frame update
