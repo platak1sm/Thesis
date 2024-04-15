@@ -16,8 +16,8 @@ public class HandPoseAnimator : MonoBehaviour
     {
         handAnimator.SetFloat("Grip_" + whichHand, MAGESControllerClass.Get.GetControllerGrabStrength(MAGESControllerClass.MAGESHand.left));
         handAnimator.SetFloat("Grip_" + whichHand, MAGESControllerClass.Get.GetControllerGrabStrength(MAGESControllerClass.MAGESHand.right));
-        handAnimator.SetFloat("Trigger_" + whichHand, MAGESControllerClass.Get.GetControllerGrabStrength(MAGESControllerClass.MAGESHand.left));
-        handAnimator.SetFloat("Trigger_" + whichHand, MAGESControllerClass.Get.GetControllerGrabStrength(MAGESControllerClass.MAGESHand.right));
+        handAnimator.SetFloat("Trigger_" + whichHand, MAGESControllerClass.Get.GetTriggerStrength(MAGESControllerClass.MAGESHand.left));
+        handAnimator.SetFloat("Trigger_" + whichHand, MAGESControllerClass.Get.GetTriggerStrength(MAGESControllerClass.MAGESHand.right));
     }
 
 
