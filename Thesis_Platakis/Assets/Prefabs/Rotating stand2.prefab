@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3216826863910660113}
   - component: {fileID: 3216826863910660106}
   m_Layer: 0
-  m_Name: Rotating stand
+  m_Name: Rotating stand2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
