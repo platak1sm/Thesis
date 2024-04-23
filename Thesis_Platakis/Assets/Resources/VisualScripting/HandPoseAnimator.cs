@@ -14,12 +14,15 @@ public class HandPoseAnimator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        handAnimator.SetFloat("Grip_" + whichHand, MAGESControllerClass.Get.GetControllerGrabStrength(MAGESControllerClass.MAGESHand.left));
-        handAnimator.SetFloat("Grip_" + whichHand, MAGESControllerClass.Get.GetControllerGrabStrength(MAGESControllerClass.MAGESHand.right));
-        handAnimator.SetFloat("Trigger_" + whichHand, MAGESControllerClass.Get.GetTriggerStrength(MAGESControllerClass.MAGESHand.left));
-        handAnimator.SetFloat("Trigger_" + whichHand, MAGESControllerClass.Get.GetTriggerStrength(MAGESControllerClass.MAGESHand.right));
+        if (whichHand.Contains("Left"))
+        {
+            handAnimator.SetFloat("Grip_" + whichHand, MAGESControllerClass.Get.GetControllerGrabStrength(MAGESControllerClass.MAGESHand.left));
+            handAnimator.SetFloat("Trigger_" + whichHand, MAGESControllerClass.Get.GetTriggerStrength(MAGESControllerClass.MAGESHand.left));
+        }
+        else
+        {
+            handAnimator.SetFloat("Grip_" + whichHand, MAGESControllerClass.Get.GetControllerGrabStrength(MAGESControllerClass.MAGESHand.right));
+            handAnimator.SetFloat("Trigger_" + whichHand, MAGESControllerClass.Get.GetTriggerStrength(MAGESControllerClass.MAGESHand.right));
+        }
     }
-
-
-
 }
