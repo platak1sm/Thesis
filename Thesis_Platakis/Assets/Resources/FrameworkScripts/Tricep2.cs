@@ -9,10 +9,10 @@ public class Tricep2 : Muscle
     void Start()
     {
         print("mphka tricep2");
-        body = GameObject.Find("OneSkeleton_Reference").GetComponent<Body>();
-        thr = GameObject.Find("OneSkeleton_Reference").GetComponent<Thresholds>();
+        body = GameObject.Find("OneSkeleton_Reference2").GetComponent<Body>();
+        thr = GameObject.Find("OneSkeleton_Reference2").GetComponent<Thresholds>();
         name = "Tricep";
-        tma = GameObject.Find("OneSkeleton_Reference").GetComponent<TextureMuscleActivator>();
+        tma = GameObject.Find("OneSkeleton_Reference2").GetComponent<TextureMuscleActivator>();
         jointsToEvaluate = new GameObject[2];
         thresholds = new float[2, 2];
         jointsToEvaluate[0] = body.bodyparts["RForeArm2"];

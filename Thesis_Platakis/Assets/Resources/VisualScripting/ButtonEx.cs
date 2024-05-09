@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class ButtonEx : MonoBehaviour
 {
@@ -16,10 +17,14 @@ public class ButtonEx : MonoBehaviour
 
     public void BicepCurls()
     {
+        animator = GameObject.Find("Marmarinio").GetComponent<Animator>();
         GameObject.Find("CanvasMuscles").SetActive(false);
-        animator.Play("Bicep");
 
-        //video add
+        animator.Play("Bicep");
+        GameObject.Find("Screen").transform.GetChild(0).gameObject.SetActive(true);
+        GameObject.Find("Screen").transform.GetChild(3).gameObject.SetActive(false);
+        GameObject.Find("Screen").transform.GetChild(1).gameObject.SetActive(true);
+
 
         GameObject.Find("CanvasExercises").transform.GetChild(0).gameObject.SetActive(true);
         GameObject.Find("CanvasExercises").transform.GetChild(1).gameObject.SetActive(false);
@@ -39,10 +44,13 @@ public class ButtonEx : MonoBehaviour
 
     public void ShoulderFlies()
     {
+        animator = GameObject.Find("Marmarinio").GetComponent<Animator>();
         GameObject.Find("CanvasMuscles").SetActive(false);
         animator.Play("Shoulder");
 
-        //video add
+        GameObject.Find("Screen").transform.GetChild(4).gameObject.SetActive(true);
+        GameObject.Find("Screen").transform.GetChild(3).gameObject.SetActive(false);
+        GameObject.Find("Screen").transform.GetChild(1).gameObject.SetActive(true);
 
         GameObject.Find("CanvasExercises").transform.GetChild(0).gameObject.SetActive(true);
         GameObject.Find("CanvasExercises").transform.GetChild(1).gameObject.SetActive(false);
@@ -61,10 +69,13 @@ public class ButtonEx : MonoBehaviour
 
     public void CalfRaises()
     {
+        animator = GameObject.Find("Marmarinio").GetComponent<Animator>();
         GameObject.Find("CanvasMuscles").SetActive(false);
         animator.Play("Calf");
 
-        //video add
+        GameObject.Find("Screen").transform.GetChild(5).gameObject.SetActive(true);
+        GameObject.Find("Screen").transform.GetChild(3).gameObject.SetActive(false);
+        GameObject.Find("Screen").transform.GetChild(1).gameObject.SetActive(true);
 
         GameObject.Find("CanvasExercises").transform.GetChild(0).gameObject.SetActive(true);
         GameObject.Find("CanvasExercises").transform.GetChild(1).gameObject.SetActive(false);

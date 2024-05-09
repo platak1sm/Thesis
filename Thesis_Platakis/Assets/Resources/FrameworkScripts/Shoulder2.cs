@@ -8,11 +8,11 @@ public class Shoulder2 : Muscle
     void Start()
     {
         Debug.Log("mphka shoulder2");
-        body = GameObject.Find("OneSkeleton_Reference").GetComponent<Body>();
-        thr = GameObject.Find("OneSkeleton_Reference").GetComponent<Thresholds>();
+        body = GameObject.Find("OneSkeleton_Reference2").GetComponent<Body>();
+        thr = GameObject.Find("OneSkeleton_Reference2").GetComponent<Thresholds>();
         name = "Shoulder";
         int i = 1;
-        tma = GameObject.Find("OneSkeleton_Reference").GetComponent<TextureMuscleActivator>();
+        tma = GameObject.Find("OneSkeleton_Reference2").GetComponent<TextureMuscleActivator>();
         jointsToEvaluate = new GameObject[4];
         thresholds = new float[4, 2];
         jointsToEvaluate[0] = body.bodyparts["RArm2"];

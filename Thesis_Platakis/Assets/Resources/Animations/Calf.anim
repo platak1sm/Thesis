@@ -82,6 +82,38 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_RightUpLeg2/OneSkeleton_RightLeg2/OneSkeleton_RightFoot2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: 0, z: -72.57}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_Spine2_1/OneSkeleton_Spine2_2/OneSkeleton_Spine2_3/OneSkeleton_RightShoulder2/OneSkeleton_RightArm2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0, y: 0, z: -72.57}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_Spine2_1/OneSkeleton_Spine2_2/OneSkeleton_Spine2_3/OneSkeleton_LeftShoulder2/OneSkeleton_LeftArm2
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -143,6 +175,20 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 1499192895
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3780868174
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 753892610
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -503,6 +549,120 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_Spine2_1/OneSkeleton_Spine2_2/OneSkeleton_Spine2_3/OneSkeleton_RightShoulder2/OneSkeleton_RightArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_Spine2_1/OneSkeleton_Spine2_2/OneSkeleton_Spine2_3/OneSkeleton_RightShoulder2/OneSkeleton_RightArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -72.57
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_Spine2_1/OneSkeleton_Spine2_2/OneSkeleton_Spine2_3/OneSkeleton_RightShoulder2/OneSkeleton_RightArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_Spine2_1/OneSkeleton_Spine2_2/OneSkeleton_Spine2_3/OneSkeleton_LeftShoulder2/OneSkeleton_LeftArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_Spine2_1/OneSkeleton_Spine2_2/OneSkeleton_Spine2_3/OneSkeleton_LeftShoulder2/OneSkeleton_LeftArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -72.57
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_Spine2_1/OneSkeleton_Spine2_2/OneSkeleton_Spine2_3/OneSkeleton_LeftShoulder2/OneSkeleton_LeftArm2
+    classID: 4
+    script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:
       serializedVersion: 2
@@ -562,6 +722,66 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_RightUpLeg2/OneSkeleton_RightLeg2/OneSkeleton_RightFoot2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_Spine2_1/OneSkeleton_Spine2_2/OneSkeleton_Spine2_3/OneSkeleton_RightShoulder2/OneSkeleton_RightArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_Spine2_1/OneSkeleton_Spine2_2/OneSkeleton_Spine2_3/OneSkeleton_RightShoulder2/OneSkeleton_RightArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_Spine2_1/OneSkeleton_Spine2_2/OneSkeleton_Spine2_3/OneSkeleton_RightShoulder2/OneSkeleton_RightArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_Spine2_1/OneSkeleton_Spine2_2/OneSkeleton_Spine2_3/OneSkeleton_LeftShoulder2/OneSkeleton_LeftArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_Spine2_1/OneSkeleton_Spine2_2/OneSkeleton_Spine2_3/OneSkeleton_LeftShoulder2/OneSkeleton_LeftArm2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: OneSkeleton_Reference2/OneSkeleton_Hips2/OneSkeleton_Spine2_1/OneSkeleton_Spine2_2/OneSkeleton_Spine2_3/OneSkeleton_LeftShoulder2/OneSkeleton_LeftArm2
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
