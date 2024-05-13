@@ -780,7 +780,7 @@ public class TextureMuscleActivator : MuscleActivator
         GameObject muscle;
 
         Vector3 rotation = b.bodyparts["Spine21"].transform.localRotation.eulerAngles;
-        Vector3 hiprotation = b.bodyparts["Hips"].transform.localRotation.eulerAngles;
+        Vector3 hiprotation = b.bodyparts["Hips2"].transform.localRotation.eulerAngles;
         distance = thresholds[1] - rotation.x;
         //print("THresholds: " + thresholds[0] + " " + thresholds[1]);
         //print("Distance of joint: " + distance);

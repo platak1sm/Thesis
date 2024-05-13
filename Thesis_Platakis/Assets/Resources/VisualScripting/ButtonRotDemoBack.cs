@@ -30,7 +30,11 @@ public class ButtonRotDemoBack : MonoBehaviour
 
     public void OnButtonClickDemo()
     {
-        //demo animations
+        animator = GameObject.Find("Marmarinio").GetComponent<Animator>();
+        GameObject.Find("CanvasMuscles").SetActive(false);
+        animator.Play("ShoulderDemo");
+        GameObject.Find("CanvasButton").transform.GetChild(2).gameObject.SetActive(true);
+        GameObject.Find("CanvasButton").transform.GetChild(1).gameObject.SetActive(false);
     }
 
     public void OnButtonClickBack()
