@@ -42,7 +42,8 @@ public class ButtonRotDemoBack : MonoBehaviour
         animator = GameObject.Find("Marmarinio").GetComponent<Animator>();
         animator.StopPlayback();
         animator.Play("Initial");
-        GameObject.Find("MarmaRotate(Clone)").transform.GetChild(1).gameObject.SetActive(true);
+        // GameObject.Find("MarmaRotate(Clone)").transform.GetChild(1).gameObject.SetActive(true);
+        GameObject.Find("CanvMuscles").transform.GetChild(0).gameObject.SetActive(true);
         btn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Rotate: No";
         GameObject.Find("MarmaRotate(Clone)").GetComponent<Animator>().enabled = false;
 
