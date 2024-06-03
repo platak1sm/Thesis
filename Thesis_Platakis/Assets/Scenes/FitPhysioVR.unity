@@ -3933,6 +3933,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5171561105908010208, guid: 6f42fb8774ddef84ca3859ed22e757f6, type: 3}
+      propertyPath: MAGESSettingsAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: a123a76b9f74d024395be29a40de78b8, type: 2}
     - target: {fileID: 5171561105908010214, guid: 6f42fb8774ddef84ca3859ed22e757f6, type: 3}
       propertyPath: m_Name
       value: SCENE_MANAGEMENT

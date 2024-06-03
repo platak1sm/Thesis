@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArrayOfLessons xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Lessons>
+    <Lesson_Name>Main Menu</Lesson_Name>
+    <Tag>Normal</Tag>
+    <Stages>
+      <Stage_Name>Stage 0</Stage_Name>
+      <Actions>
+        <Action>Operation Start</Action>
+        <ActionClassName>OperationStart</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+    </Stages>
+  </Lessons>
+</ArrayOfLessons>

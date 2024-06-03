@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efff46aa3ee7f1e4a803ea152fa6db72, type: 3}
+  m_Name: MAGESSettings
+  m_EditorClassIdentifier: 
+  MAGESVersion: ORamaVR MAGES 4.0.0
+  loginUI: {fileID: 7893032492560938452, guid: 7a5245008b8f8e7488097062b0465509, type: 3}
+  verificationCodeUI: {fileID: 5759327016184863557, guid: cea45d94c10d3664eba7fd818c414199, type: 3}
+  operationStartUI: {fileID: 4724940016408890019, guid: a602ef0096e55f144af5d8352c1e3ade, type: 3}
+  analyticsViewUI: {fileID: 4055303276646785221, guid: c3210ea169560dd45a2bab858eb9301e, type: 3}
+  customizationCanvasUI: {fileID: 6299760238693719013, guid: f4113e97f9487c8489f501ecac92fd82, type: 3}
+  optionsUI: {fileID: 1476319424171800, guid: b1dd3a5ccb1b63e46980e07bbb673b8e, type: 3}
+  customErrorUI: {fileID: 0}
+  customWarningUI: {fileID: 0}
+  customCriticalUI: {fileID: 0}
+  customNotificationUI: {fileID: 0}
+  networkInfoUI: {fileID: 4645847176625951017, guid: 114988d5d6c9dff4d90dad383471682b, type: 3}
+  networkUI: {fileID: 8235612400274572116, guid: 3b5a3e13dc381504d9d1a0d6ae19f4b7, type: 3}
+  operationStartPrefabs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  operationStartPrefabPaths: []
+  productCode: PlatakisThesis
+  OperationXML: {fileID: 4900000, guid: 0e5028d268cfa3e48ab0f3109ad91561, type: 3}
+  LoginIdentityUrl: 
+  LoginLoopBackUrl: 
+  ClientId: 
+  ClientSecret: 
+  RegisterUrl: 
+  ProfileUploadUrl: 
+  AnalyticsUploadUrl: 
+  LeaderboardUrl: 
+  QuestionnaireUploadUrl: 
+  MultiplayerAnalyticsUrl: 
+  VitalsUrl: 
+  networkInfoUIPath: MAGESres/NetworkR/NetworkingInfoWindow
+  UserLogin: 0
+  LanguageTranslationJsonPath: 
+  enableMicrophone: 0
+  UploadRecordingsVR: 
+  DownloadRecordingsVRList: 
+  DownloadRecordingsVR: 
