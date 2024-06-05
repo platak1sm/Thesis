@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using MAGES.Utilities;
+using UnityEngine.UI;
 
 public class ButtonRotDemoBack : MonoBehaviour
 {
@@ -16,14 +17,14 @@ public class ButtonRotDemoBack : MonoBehaviour
 
     public void OnButtonClickRot()
     {
-        if (btn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text.Contains("No"))
+        if (btn.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text.Contains("No"))
         {
-            btn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Rotate: Yes";
+            btn.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Rotate: Yes";
             GameObject.Find("MarmaRotate(Clone)").GetComponent<Animator>().enabled = true;
         }
         else
         {
-            btn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Rotate: No";
+            btn.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "Rotate: No";
             GameObject.Find("MarmaRotate(Clone)").GetComponent<Animator>().enabled = false;
         }
     }
@@ -44,11 +45,12 @@ public class ButtonRotDemoBack : MonoBehaviour
         animator.Play("Initial");
         // GameObject.Find("MarmaRotate(Clone)").transform.GetChild(1).gameObject.SetActive(true);
         GameObject.Find("CanvMuscles").transform.GetChild(0).gameObject.SetActive(true);
-        btn.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = "Rotate: No";
+        GameObject.Find("CanvasButton").transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = "Rotate: No";
         GameObject.Find("MarmaRotate(Clone)").GetComponent<Animator>().enabled = false;
 
-        GameObject.Find("CanvasButton").transform.GetChild(2).gameObject.SetActive(false);
         GameObject.Find("CanvasButton").transform.GetChild(1).gameObject.SetActive(true);
+        GameObject.Find("BackButton").SetActive(false);
+
 
         GameObject.Find("Screen").transform.GetChild(1).gameObject.SetActive(false);
         GameObject.Find("Screen").transform.GetChild(3).gameObject.SetActive(true);
