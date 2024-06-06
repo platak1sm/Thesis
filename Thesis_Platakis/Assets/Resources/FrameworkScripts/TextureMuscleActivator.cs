@@ -1,11 +1,7 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Data.SqlTypes;
-using System.Linq;
-using UnityEditor;
 using UnityEngine;
-//using static UnityEditor.FilePathAttribute;
+
 
 public class TextureMuscleActivator : MuscleActivator
 {
@@ -61,16 +57,14 @@ public class TextureMuscleActivator : MuscleActivator
 
     }
 
-    private void HandleArm(GameObject joint, float[] thresholds) //90-115 310 265
+    private void HandleArm(GameObject joint, float[] thresholds)
     {
         string jname, jname2;
         GameObject muscle, muscle2, muscle3;
         bool isLeft = false;
         float distance, distancel;
         muscle3 = GameObject.Find("Back");
-        //muscle11 = GameObject.Find("ShouldersM");
-        //muscle12 = GameObject.Find("ChestM");
-        //muscle13 = GameObject.Find("BackM");
+
 
         if (joint.name == "OneSkeleton_LeftArm")
         {
@@ -100,7 +94,7 @@ public class TextureMuscleActivator : MuscleActivator
             if (thresholds[1] < 275)
             {
                 distance = thresholds[1] - rotation.x;
-                if (distance <= thresholds[1] - thresholds[0] && distance >= 0) //rotation2.z >= thr.thresholds["Bicep"][1] && rotation2.z <= thr.thresholds["Bicep"][0]
+                if (distance <= thresholds[1] - thresholds[0] && distance >= 0)
                 {
                     //print("Distance of joint " + jname +": "+ distance);
                     distancel = Mathf.InverseLerp(0f, thresholds[1] - thresholds[0], distance);
@@ -152,7 +146,7 @@ public class TextureMuscleActivator : MuscleActivator
             else if (thresholds[1] == 265)
             {
                 distance = rotation.y - thresholds[1];
-                //print("distance looooool:  " + distance);
+
                 if (hiprotation.x <= thr.thresholds["LyingSupine"][1] && hiprotation.x >= thr.thresholds["LyingSupine"][0])
                 {
                     if (distance <= thresholds[0] - thresholds[1] && distance >= 0)
@@ -177,16 +171,14 @@ public class TextureMuscleActivator : MuscleActivator
         }
     }
 
-    private void HandleArm2(GameObject joint, float[] thresholds) //90-115 310 265
+    private void HandleArm2(GameObject joint, float[] thresholds)
     {
         string jname, jname2;
-        GameObject muscle, muscle2, muscle3, muscle11, muscle12, muscle13;
+        GameObject muscle, muscle2, muscle3;
         bool isLeft = false;
         float distance, distancel;
         muscle3 = GameObject.Find("Back2");
-        //muscle11 = GameObject.Find("ShouldersM");
-        //muscle12 = GameObject.Find("ChestM");
-        //muscle13 = GameObject.Find("BackM");
+
 
         if (joint.name == "OneSkeleton_LeftArm2")
         {
@@ -216,7 +208,7 @@ public class TextureMuscleActivator : MuscleActivator
             if (thresholds[1] < 275)
             {
                 distance = thresholds[1] - rotation.x;
-                if (distance <= thresholds[1] - thresholds[0] && distance >= 0) //rotation2.z >= thr.thresholds["Bicep"][1] && rotation2.z <= thr.thresholds["Bicep"][0]
+                if (distance <= thresholds[1] - thresholds[0] && distance >= 0)
                 {
                     //print("Distance of joint " + jname +": "+ distance);
                     distancel = Mathf.InverseLerp(0f, thresholds[1] - thresholds[0], distance);
@@ -267,7 +259,7 @@ public class TextureMuscleActivator : MuscleActivator
             else if (thresholds[1] == 265)
             {
                 distance = rotation.y - thresholds[1];
-                //print("distance looooool:  " + distance);
+
                 if (hiprotation.x <= thr.thresholds["LyingSupine"][1] && hiprotation.x >= thr.thresholds["LyingSupine"][0])
                 {
                     if (distance <= thresholds[0] - thresholds[1] && distance >= 0)
@@ -708,7 +700,6 @@ public class TextureMuscleActivator : MuscleActivator
         Vector3 rotation = b.bodyparts["Spine"].transform.localRotation.eulerAngles;
         Vector3 hiprotation = b.bodyparts["Hips"].transform.localRotation.eulerAngles;
         distance = thresholds[1] - rotation.x;
-        //print("THresholds: " + thresholds[0] + " " + thresholds[1]);
         //print("Distance of joint: " + distance);
         if (thresholds[1] < thresholds[0])
         {
@@ -752,9 +743,9 @@ public class TextureMuscleActivator : MuscleActivator
                 {
                     if (!isLyingSupine) print("IS LYING SUPINE NOW");
                     isLyingSupine = true;
-                    Debug.Log("Distance of joint Spine: " + distance);
+                    //Debug.Log("Distance of joint Spine: " + distance);
                     distancel = Mathf.InverseLerp(0f, thresholds[1] - thresholds[0], distance);
-                    Debug.Log("Distance 0-1 of joint Spine: " + distancel);
+                    //Debug.Log("Distance 0-1 of joint Spine: " + distancel);
                     Activate(1 - distancel, muscle);
                 }
                 else
@@ -782,7 +773,6 @@ public class TextureMuscleActivator : MuscleActivator
         Vector3 rotation = b.bodyparts["Spine21"].transform.localRotation.eulerAngles;
         Vector3 hiprotation = b.bodyparts["Hips2"].transform.localRotation.eulerAngles;
         distance = thresholds[1] - rotation.x;
-        //print("THresholds: " + thresholds[0] + " " + thresholds[1]);
         //print("Distance of joint: " + distance);
         if (thresholds[1] < thresholds[0])
         {
@@ -826,9 +816,9 @@ public class TextureMuscleActivator : MuscleActivator
                 {
                     if (!isLyingSupine2) print("IS LYING SUPINE NOW");
                     isLyingSupine2 = true;
-                    Debug.Log("Distance of joint Spine: " + distance);
+                    //Debug.Log("Distance of joint Spine: " + distance);
                     distancel = Mathf.InverseLerp(0f, thresholds[1] - thresholds[0], distance);
-                    Debug.Log("Distance 0-1 of joint Spine: " + distancel);
+                    //Debug.Log("Distance 0-1 of joint Spine: " + distancel);
                     Activate(1 - distancel, muscle);
                 }
                 else
@@ -889,10 +879,7 @@ public class TextureMuscleActivator : MuscleActivator
         return new Color(newRed, newGreen, newBlue, newAlpha);
     }
 
-    public override void Activate()
-    {
-        throw new System.NotImplementedException();
-    }
+
 
     public override void Activate(float intensity, GameObject muscle)
     {
@@ -904,18 +891,14 @@ public class TextureMuscleActivator : MuscleActivator
             //Debug.Log("Activated " + muscle.name + " with intensity " + intensity);
             m.color = lerpedColor;
             m.SetColor("_EmissionColor", lerpedColor);
-            // If your material is using emission, you may need to enable it explicitly
             m.EnableKeyword("_EMISSION");
-            // You might need to update the material to apply the changes
             m.globalIlluminationFlags = MaterialGlobalIlluminationFlags.RealtimeEmissive;
         }
         else if (intensity == 0)
         {
             m.color = Color.white;
             m.SetColor("_EmissionColor", Color.black);
-            // If your material is using emission, you may need to enable it explicitly
             m.EnableKeyword("_EMISSION");
-            // You might need to update the material to apply the changes
             m.globalIlluminationFlags = MaterialGlobalIlluminationFlags.RealtimeEmissive;
         }
         if (transform.childCount != 0)
@@ -930,24 +913,23 @@ public class TextureMuscleActivator : MuscleActivator
                     //Debug.Log("Activated " + muscle.name + " with intensity " + intensity);
                     m1.color = lerpedColor;
                     m1.SetColor("_EmissionColor", lerpedColor);
-                    // If your material is using emission, you may need to enable it explicitly
                     m1.EnableKeyword("_EMISSION");
-                    // You might need to update the material to apply the changes
                     m1.globalIlluminationFlags = MaterialGlobalIlluminationFlags.RealtimeEmissive;
                 }
                 else if (intensity == 0)
                 {
                     m1.color = Color.white;
                     m1.SetColor("_EmissionColor", Color.black);
-                    // If your material is using emission, you may need to enable it explicitly
                     m1.EnableKeyword("_EMISSION");
-                    // You might need to update the material to apply the changes
                     m1.globalIlluminationFlags = MaterialGlobalIlluminationFlags.RealtimeEmissive;
                 }
             }
         }
 
     }
-
+    public override void Activate()
+    {
+        throw new System.NotImplementedException();
+    }
 
 }

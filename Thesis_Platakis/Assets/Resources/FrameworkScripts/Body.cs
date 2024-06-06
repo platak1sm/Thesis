@@ -41,16 +41,6 @@ public class Body : MonoBehaviour
         bodyparts.Add("Spine23", GameObject.Find("OneSkeleton_Spine2_3"));
         bodyparts.Add("Hips2", GameObject.Find("OneSkeleton_Hips2"));
     }
-    // Start is called before the first frame update
-    void Start()
-    {
 
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
