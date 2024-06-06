@@ -45,7 +45,7 @@ public class ButtonRotDemoBack : MonoBehaviour
         animator.Play("Initial");
         // GameObject.Find("MarmaRotate(Clone)").transform.GetChild(1).gameObject.SetActive(true);
         GameObject.Find("CanvMuscles").transform.GetChild(0).gameObject.SetActive(true);
-        GameObject.Find("CanvasButton").transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = "Rotate: No";
+        GameObject.Find("CanvasButton").transform.GetChild(0).GetChild(1).gameObject.GetComponent<TextMeshProUGUI>().text = "Rotate: No";
         GameObject.Find("MarmaRotate(Clone)").GetComponent<Animator>().enabled = false;
 
         GameObject.Find("CanvasButton").transform.GetChild(1).gameObject.SetActive(true);
