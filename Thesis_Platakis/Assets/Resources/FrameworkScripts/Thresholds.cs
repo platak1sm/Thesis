@@ -26,6 +26,7 @@ public class Thresholds : MonoBehaviour
         AddMovement(348f, 10f, "StandingHip");   //Hip Joint
         AddMovement(270f, 300f, "LyingSupine");  //Hip Joint
         AddMovement(75f, 89f, "LyingProne");     //Hip Joint
+    }
 
 
     void AddMovement(float min, float max, string muscle)
